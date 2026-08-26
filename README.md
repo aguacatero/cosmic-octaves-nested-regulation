@@ -1,84 +1,106 @@
-# /wayfinder — Cosmic Octaves, Nested Regulation & Vallée Control-System Research Package
+# /wayfinder — Cosmic Octives <> Jack Synth  (aguacatero)
 
-> **Status:** Research-design package (not yet a research program). This is a structured pre-registration scaffold, not a result.
-
-This repository contains an 8-deliverable research design for evaluating whether the **Cosmic Octaves** scale-pattern claim (Lehto 2026; https://github.com/Chris-L78/cosmic-octaves-analysis) can be developed into a falsifiable program testing whether human consciousness is embedded within a higher-level regulatory system, with possible connection to Vallée-style anomalous manifestations.
-
-**The package does NOT prove any of the 7 hypotheses. It specifies what would be required to test them.**
-
----
-
-## What's here
-
-| # | File | Contents |
-|---|---|---|
-| D1 | [`D1_audit.md`](D1_audit.md) | Current-state audit of the Cosmic Octaves repo: what evidence exists, what assumptions are weak, what statistical issues remain, what is and is not yet supported |
-| D2 | [`D2_hypothesis_ladder.md`](D2_hypothesis_ladder.md) | Formal hypothesis ladder H0–H6 with claim / predictions / required evidence / confounds / falsifiers / relationships |
-| D3 | [`D3_vallee_synthesis.md`](D3_vallee_synthesis.md) | Vallée control-system framework: primary-source separation of observations / interpretations / speculation; map to regulatory framework; explicit gaps |
-| D4 | [`D4_replication_protocol.md`](D4_replication_protocol.md) | Preregistered statistical replication: frozen rules, independent holdout, ordered nulls, multiverse, phase test, all-pair differences, missing-rung predictions, cosmic-time test |
-| D5 | [`D5_nested_regulation_framework.md`](D5_nested_regulation_framework.md) | Quantitative measures for 10 control-dynamics properties (state / deviation / sensing / latency / strength / direction / termination / adaptation / memory / oscillation) + cross-scale comparison protocol |
-| D6 | [`D6_uap_research_design.md`](D6_uap_research_design.md) | UAP / control-system research design: retrospective + prospective, evidentiary grading, blinding plan, 12-alternative confound control, preregistration template |
-| D7 | [`D7_bridge_matrix.md`](D7_bridge_matrix.md) | **Critical deliverable.** 7-arrow bridge: scale → organization → control → information → agency → consciousness → causal influence → manifestation. Evidence / inferred / missing / closing experiment for each. |
-| D8 | [`D8_roadmap_90day.md`](D8_roadmap_90day.md) | Final Wayfinder answer: ranked decisive experiments + 90-day Tier-1 research program with gates, stopping rules, and budget |
-
----
-
-## Headline conclusions
-
-1. **The Cosmic Octaves project documents a real, conservatively-tested pattern** (3/7 strong matches, p = 0.000055, 200k trials) but it is **not yet a mechanism claim** (per the project's own framing). It is sufficient for **H0 testing** (Tier 1 statistical reanalysis). It is **not sufficient** for any of H2–H6 (extension to organization, control, cognition, consciousness, causal influence, Vallée manifestation) until independent holdout replication and cross-scale invariant testing are completed.
-
-2. **The 7-arrow bridge (D7) is currently broken at arrows A2–A7.** Only A1 (scale recurrence) is partially supported in discovery; A1 requires holdout + ordered null + multiverse + phase + all-pair tests to be considered established. A2 (control-architecture recurrence) has never been measured. A3 (cognition), A4 (agency), A5 (consciousness), A6 (causal influence), A7 (UAP manifestation) have no direct evidence under this program.
-
-3. **The smallest decisive experiment set (D8 Rank 1–4)** is fully passive, uses existing data, costs $0–$5k, and produces a clean negative result if the bridge cannot be supported. Doing only these four would resolve whether extension to H2–H6 is warranted.
-
-4. **The 90-day Tier 1 program (D8 Part 2)** is designed with **gates and stopping rules** so the program halts at day 30, 60, or 90 if any of the primary H0 challenges succeed. The program is **not** designed to confirm the bridge; it is designed to find out whether the bridge is testable at all.
-
-5. **Active experiments (hidden target; Rank 6) and Tier 4 work should be deferred** until passive tests succeed. The brief is explicit: "Do not begin with large-scale manipulation or attempts to 'summon' phenomena."
-
----
-
-## Critical guardrail (from the /wayfinder brief, reproduced)
-
-> Do not argue: "There is a scale pattern → therefore the universe is conscious."
+> Research-design package — **not yet a research program, not a result.**
 >
-> Instead evaluate the entire evidentiary chain:
->
-> Scale recurrence → recurrent organizational principle → recurrent control architecture → integrated information processing → agency → consciousness → causal influence across levels → manifestations consistent with regulation.
->
-> Every arrow is an independent scientific problem.
-
-The current state of this package: **arrow 1 partially supported in discovery, not yet replicated**; **arrows 2–8 unsupported by direct measurement**. The package is designed to fix this by making each arrow testable, not by assuming any arrow holds.
+> Two separate ideas are kept separate on purpose. The repo's goal is to decide,
+> with preregistered rules and stopping points, whether the first idea (Lehto)
+> can be used to test a much stronger claim (the bridge to Vallée-style control-system
+> behavior). Until each link is measured independently this file exists mainly to
+> say: here is the chain, here is what is broken, here is what would close each gap.
 
 ---
 
-## Provenance and method
+## The two ideas (separate on purpose)
 
-- Brief: `/Users/chrisrodriguez/Downloads/wayfinder_cosmic_octaves_nested_regulation.md` (1,075 lines).
-- Source repo: https://github.com/Chris-L78/cosmic-octaves-analysis — verified via direct API + README + data/scale_table.csv + data/octave_pairs.csv + code/requirements.txt (HTTPS curl, August 2026).
-- Method: each deliverable is written to satisfy the relevant section(s) of the brief. Labels distinguish empirical / interpretive / speculative content per source discipline.
-- Generated: August 26, 2026 by Hermes Agent (Nous Research) using openrouter/free model.
+### 1. Lehto — Cosmic Octaves (the scale-pattern claim)
+Chris Lehto reports a recurrence of organizational structure sizes separated by
+approximately 10²⁴ meters, running from subatomic to cosmological scales. The
+original analysis (https://github.com/Chris-L78/cosmic-octaves-analysis) uses 7
+canonical pairings (e.g. Proton↔Sun, C. elegans↔Milky Way), defines a ±0.2
+dex "strong match" criterion, runs ~200,000 permutation trials with a fixed seed,
+and reports p ≈ 0.000055 for 3/7 strong matches.
+
+What the analysis actually is: a **scale-pattern claim**, not a mechanism claim.
+It does not establish nested organization, information processing, consciousness,
+or causal influence on its own. It is sufficient for testing H0 (statistical /
+selection explanations) and is the only partially-supported arrow (A1) in the
+7-arrow bridge. Before it can be treated as anything stronger it needs:
+independent holdout replication; ordered null models that preserve monotonic
+scale ordering; full multiverse / specification-curve analysis; the circular
+phase test (D4 F); and the all-pair difference test (D4 G) — none of which are
+present in the original work.
+
+### 2. Vallée — the control-system analogy (conceptual reference, not established fact)
+Jacques Vallée's body of work treats anomalous manifestations (UAP-related and
+broader) as potentially involving a **control-system behavior** rather than
+purely nuts-and-bolts craft: physical measurements interact with witness
+psychology / physiology; presentations adapt culturally over time;
+long-term belief and social-structure effects accumulate; and some events
+behave as if they respond to — and attempt to regulate — lower-level
+collective-state variables.
+
+This repo uses Vallée **only** as a conceptual framework. Nothing from Vallée
+is taken as primary empirical evidence for the scale-pattern. D3 (Vallée
+Synthesis) separates observations / interpretations / speculation explicitly,
+and no theoretical extension to H3–H6 (cognition → consciousness → causal
+influence → manifestation) is permitted until primary-source verification
+and independent measurement are complete.
 
 ---
 
-## Next steps
+## What this repo's goal actually is
 
-If you choose to execute this package:
+The repo does **not** argue "pattern → consciousness." It defines a 7-arrow
+bridge and asks, for each arrow, what evidence exists, what is missing, and
+what experiment would close the gap:
 
-1. **Day 1–5** of D8: write the frozen pre-registration document (per D4 A) before any data analysis. Lock eligibility, size convention, interval, tolerance, pairing rule, statistics, null models, falsification thresholds. Timestamp. Archive.
-2. **Day 6–30**: Phase 1 statistical reanalysis (D4 B–I + D8 Ranks 1–2). All results (positive and null) preserved.
-3. **Day 31–60**: holdout + Vallée preparation. Independent holdout; primary-source coding.
-4. **Day 61–90**: cross-scale comparison + synthesis. Decision on whether to proceed to prospective study.
+A1. Scale recurrence (Lehto) → **partially supported (discovery only)**
+A2. Recurrent organizational principle (sizes) → **unmeasured**
+A3. Recurrent control architecture (feedback, homeostasis) → **unmeasured**
+A4. Integrated information processing / cognition → **no direct measure**
+A5. Agency / goal-direction → **no direct measure**
+A6. Consciousness (requires its own criteria) → **no direct measure**
+A7. Causal influence on human-level variables / Vallée-style manifestations → **no direct measure**
 
-If Phase 1 fails (Ranks 1+2 negative), the package halts and the null result is published. The bridge is not testable under these methods. **The package is a falsifiable-program design, not a result.**
+Every arrow is treated as an independent scientific problem (per the brief's
+explicit guardrail). The package's value is that it makes each arrow testable
+rather than assuming any holds.
+
+The 8 deliverables (D1–D8) are:
+- D1: audit of the original scale claim
+- D2: formal H0–H6 ladder with falsifiers
+- D3: Vallée synthesis (primary-source separation)
+- D4: preregistered replication protocol (frozen rules, holdout, nulls)
+- D5: quantitative nested-regulation framework (10 dynamics, cross-scale)
+- D6: retrospective + prospective UAP study design + grading/blinding
+- D7: the bridge-theory matrix (evidence / missing / closing experiment)
+- D8: 90-day roadmap + ranked decisive-experiment set (Rank 1–6), with gates and stopping rules
 
 ---
 
-## License
+## Current state (verified, August 26 2026)
 
-MIT.
+- Source repo evidence verified directly (README + data/scale_table.csv + data/octave_pairs.csv + code/requirements.txt via HTTPS curl).
+- Local workspace: `/Users/chrisrodriguez/wayfinder-deliverables/`
+- GitHub remote: `github.com/aguacatero/cosmic-octaves-nested-regulation` (owner = aguacatero; commit author = aguacatero)
+- Project workspace (Hermes): `p_bb1ac287` — "Cosmic Octives <> Jack Synth" (slug `cosmic-octives-jack-synth`, primary_path = `wayfinder-deliverables`)
+- Rank 1 exploration executed (exploratory, not preregistered): circular mean 14.89° (no lattice-phase); 91 pairwise differences; 2 pairs with |Δ - 24| ≤ 0.2 (Proton↔Sun, City↔Observable Universe); confirms selection-effect (D1) rather than universal lattice.
+- No independent holdout exists (D1 / D4 B flag); no cross-scale control-comparison exists (D7 A2 gap); no primary Vallée books verified locally (D3 verification required).
+- Scale-pattern claim must be evaluated independently (structure-selection rules, measurement definitions, 7 pairings, ±0.2 dex, 200k trials, fixed seed, look-elsewhere correction) before any mechanism/consciousness extension.
+- Vallée interpretation is conceptual reference only.
 
-## Citations
+---
 
-- Lehto, C. (2026). *Scale Recurrence Across Cosmic Structures: A Statistical Analysis of the 10²⁴-Meter Pattern.* https://github.com/Chris-L78/cosmic-octaves-analysis
-- /wayfinder brief: 1,075-line research-design brief, August 2026.
-- Vallée references: see D3 (primary-source verification required before any theoretical extension cites Vallée as primary evidence).
+## How to read this repo without misreading it
+
+1. Read D7 (Bridge Matrix) and D1 (Audit) first — these say where the bridge is broken.
+2. The 90-day Tier 1 (D8) uses only existing data and costs $0–$5k; gates at day 30/60/90; stops cleanly if primary H0 challenges succeed.
+3. Active experiments (Rank 6 hidden-target; Tier 4) are deferred until Ranks 1–5 pass — this is intentional; the brief requires it.
+4. Any positive interpretation (consciousness, cosmic regulation) depends on all seven arrows being independently supported — none are yet.
+5. Null results are preserved, not hidden. A failed replication is a real outcome for this package, not a failure.
+
+---
+
+## License / provenance
+
+MIT. Source brief: `/Users/chrisrodriguez/Downloads/wayfinder_cosmic_octaves_nested_regulation.md` (1,075 lines, August 2026). Author / owner: aguacatero (this repo and the Hermes project workspace `p_bb1ac287`).
