@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 """
-Rank 1 — EXPLORATORY / INVALIDATED (2026-09-01 §4.1: original phase mapping log10(L) % 24 → degrees was invalid; 14.89° result superseded; do NOT treat as valid circular-phase test. Per D4-A: rerun from canonical upstream data with correct mapping.
-"""
-
 Rank 1 — EXPLORATORY (not preregistered confirmatory; per D4 B / D4 A.
 Re-runs: (1) circular phase test (log10 L mod 24)  and  (2) all-pair
 complete-pairwise difference spectrum.  Uses data/octave_pairs.csv +
@@ -47,5 +44,6 @@ for p in PAIRS:
     print(f"  {p['Pair_Number']:>2}: {p['Small_Structure']:<14}↔{p['Large_Structure']:<22} dev={dev:+.3f}  {q}")
 
 
-# --- VALIDATION NOTE (2026-09-01) ---
-# INVALIDATED / SUPERSEDED (per v2 handoff §4.1). Original circular-phase implementation was mathematically wrong (log10(L) % 24 is dex-cycle position, not degrees; correct: theta = (phase_dex / 24)*360). Automate-check requires corrected script and upstream data consistency check (15 structures, byte-for-byte).
+--- ARCHIVED v1 (2026-09-01) ---
+Status: SUPERSEDED / HISTORICAL EXPLORATORY. Per handoff v2 (§5.6, §11). Not confirmed. Original file preserved at /Users/chrisrodriguez/wayfinder-deliverables/rank1_phase_allpair.py.
+Defects noted (§4.1-4.6): rank1 phase math invalid; scale_table.csv 14-vs-15; D4A archive; D2/D5/D6/D7/D8 superseded.
