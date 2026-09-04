@@ -57,6 +57,8 @@
 - V1 (reproducible residual anomaly): NOT ESTABLISHED — replication / intervention / out-of-sample still required
 - Bridge B-IV: SPECULATIVE — no activation permitted (0/5 promotion criteria)
 
+| src-ualbany-2025 | The New Science of Unidentified Aerospace-Undersea Phenomena (UAP) | Knuth, Szydagis, Vallée et al | 2025 | n/a | Progress in Aerospace Sciences | n/a | DOI: 10.1016/j.paerosci.2025.101097 | peer-reviewed (Elsevier) | Verified via ScienceDirect + EurekAlert (Jun 4 2025); Laguna Beach field station 2021; 30+ co-authors; multi-camera method | Supports D5 C-001 (energy measurement framework) + method example |
+
 ---
 
 ## NEXT STEPS (per v2 architecture)
