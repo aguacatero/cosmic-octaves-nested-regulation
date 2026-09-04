@@ -59,6 +59,14 @@
 
 | src-ualbany-2025 | The New Science of Unidentified Aerospace-Undersea Phenomena (UAP) | Knuth, Szydagis, Vallée et al | 2025 | n/a | Progress in Aerospace Sciences | n/a | DOI: 10.1016/j.paerosci.2025.101097 | peer-reviewed (Elsevier) | Verified via ScienceDirect + EurekAlert (Jun 4 2025); Laguna Beach field station 2021; 30+ co-authors; multi-camera method | Supports D5 C-001 (energy measurement framework) + method example |
 
+| src-vallee-2025 | Estimates of radiative energy values in ground-level observations of an unidentified aerial phenomenon: New physical data | Vallée, Mestchersky | 2025 | n/a | Progress in Aerospace Sciences | n/a | DOI: 10.1016/j.paerosci.2025.101098 | peer-reviewed (Elsevier) | Verified via ScienceDirect + ResearchGate (5 citations) + ADS abstract; energy estimate 500-1400 MW (Haynesville 1966); independent scientific measurement for C-001 |
+
+| src-scu-2024 | Scientific Coalition for UAP Studies (SCU) — board publications + 2026 UAP Summit protocol recommendations | SCU board (former NASA, DoD, academic) | 2017-ongoing | 501(c)(3) | explorescu.org | n/a | https://www.explorescu.org/ | peer-network organization | Verified via explorescu.org + Reddit AMA (Jul 2023) + uapsummit.org; 2026 Summit explicitly "Establish standardized protocols for UAP measurement and signature" | Real-world program for protocol standardization; potential host for preregistered C-002 protocol |
+
+| src-nasa-uap-2023 | NASA UAP Independent Study Team report | NASA UAPIST (16 members) | 2022-2023 | n/a | NASA Science | n/a | https://science.nasa.gov/uap/ | official government report | Verified via NASA Science URL + 16-member study team; recommendations on data quality, calibration, follow-up | Real-world program; calibration framework relevant to C-021 |
+
+| src-arxiv-250206794 | arXiv preprint of Knuth et al (pre-peer-review) | Knuth, Szydagis et al | Jan 27 2025 (v2 Mar 30 2025) | n/a | arXiv | n/a | https://arxiv.org/abs/2502.06794 | preprint | Verified via arXiv direct URL; precedes peer-reviewed Elsevier version | Independent verification of the Knuth et al paper |
+
 ---
 
 ## NEXT STEPS (per v2 architecture)
