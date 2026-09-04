@@ -328,3 +328,59 @@ NEW GOAL: Retrieve and document REAL-WORLD measurements from extractable source 
 6. **Re-evaluate V1-eligible** status with new evidence
 
 This is a research program, not a documentation exercise. Each V1-eligible conversion requires YEARS of real-world physics/chemistry/biology work.
+
+---
+
+## DIMENSIONS (1988) — ADDITIONAL REAL-WORLD EXTRACTION (578KB text, 2026-09-03)
+
+**Source:** `Vallée Jacques - Dimensions.pdf` (`~/Documents/open-notebook/`, 1011KB, 578KB text at `/tmp/dimensions_full.txt`)
+**Status:** Extracted but NOT FULLY INTEGRATED — these are additional observations that confirm but don't replace the Confrontations measurements for C-001/C-002/C-003
+
+### Confirmed measurements (verified from text — not invented):
+- **Vegetation/Soil:** "soil and wheat samples showed no evidence of an explosion" (counter-evidence to conventional explosion explanation) — supports C-002 elimination of industrial/atmospheric conventional explanation
+- **Botanical pattern:** "vegetation exhibits the action of a flattening force which produces either a stationary pattern ("spokes of a wheel") or a rotating pattern (clockwise or counterclockwise)" — confirms C-003/C-025 botanical deformation
+- **Physiological:** "temporary blindness, paralysis, sleep cycle changes... long-term personality changes" — confirms C-003 (bio) / C-026 (bio) observations
+- **Energy context (indirect):** References to "burning coals of fire... bright... lightning" — metaphorical, not quantitative; doesn't replace C-001's 2.3 MW measurement from Confrontations
+
+### Retrieval limitation (honest — v2 §8.2 / §83):
+Dimensions (1988) is framework/provenance-level (like Passport 1969) — it provides historical patterns and case aggregation but does NOT provide the same case-level quantitative measurements as Confrontations (1990). The measurements in Dimensions are qualitative/descriptive; for Q10 measurement protocol (quantitative variable, intervention test, out-of-sample), Confrontations (1990) remains the stronger source.
+
+**No new D5 anchor from Dimensions — it confirms existing anchors (C-002/C-003/C-025/C-026) but doesn't provide new quantitative measurements. No claim upgraded to V1-ELIGIBLE.**
+
+---
+
+## REVELATIONS (1992) — ADDITIONAL REAL-WORLD EXTRACTION (498KB text, 2026-09-03)
+
+**Source:** `Vallée Jacques - Revelations.pdf` (`~/Documents/open-notebook/`, 3174KB, 498KB text at `/tmp/revelations_full.txt`)
+
+### Notable measurements (verified from text):
+- **Ubatuba Brazil case (1933/34):** "a peculiar alloy that was eventually analyzed by the McDonnell Aircraft Company" — second independent lab analysis reference (supports C-002 residue chemistry)
+- **Microwave reference:** "advanced microwave devices" briefing — indirect confirmation of C-012 (microwave/CNS) energy hypothesis
+- **Paralysis technology:** "devices used for physiological effects as putting people to sleep or inducing paralysis" — supports C-003/C-026 bio markers; also proposes conventional-technology explanation
+
+### Revelations also proposes conventional explanations (important for Q10 conventional-elimination):
+The text notes that paralysis/hallucination effects "do exist, either in test sites across the U.S. or on the drawing boards" — this is important: Vallée acknowledges conventional microwave technology CAN produce the observed effects, which means C-003/C-012 require rigorous elimination of conventional technology before attributing to anomalous manifestation.
+
+**This supports the V0_frozen_protocol.md conventional-elimination requirement (C-011/C-030): before V1-eligible, must eliminate conventional microwave/technology as explanation.**
+
+---
+
+## COMPLETE EXTRACTION LOG — ALL SOURCES (2026-09-03)
+
+| Source | File | Size | Extractable | Text | Notes |
+|---|---|---|---|---|---|
+| Confrontations 1990 | `jacquesvallee-confrontations-...phpapp02.pdf` | 6672KB | YES | 475KB | PRIMARY — contains C-001/C-002/C-003 real measurements |
+| Dimensions 1988 | `Vallée Jacques - Dimensions.pdf` | 1011KB | YES | 578KB | Supports C-002/C-003/C-025/C-026 (qualitative) |
+| Revelations 1992 | `Vallée Jacques - Revelations.pdf` | 3174KB | YES | 498KB | Ubatuba McDonnell Aircraft analysis; conventional-microwave explanation noted |
+| Passport to Magonia 1969 | `JacquesValleePassporttoMagonia.pdf` | 16033KB | NO | 0KB | Image-only (FineReader); text layer absent |
+| Passport-OCR | `JacquesValleePassporttoMagonia-OCR.pdf` | 15657KB | NO | 0KB | Image archive; 390 form-feed bytes only |
+| Messengers 2008 | `Vallee, Jacques - Messengers Of Deception.pdf` | 9519KB | NO | 0KB | No text layer |
+
+**All retrievable text extracted and saved:**
+- `/tmp/confrontations_full.txt` (486,704 bytes)
+- `/tmp/dimensions_full.txt` (592,600 bytes)
+- `/tmp/revelations_full.txt` (~510,000 bytes)
+
+**B-IV bridge status:** STILL SPECULATIVE — all 5 criteria 0/5; retrieval of source text ≠ independent measurement replication; per v2 §56-63, V1-ELIGIBLE requires independent investigator + preregistration + out-of-sample
+
+**Goal updated (per user direction 2026-09-03):** "keep searching for a way to retrieve real-world measurements online" — RETRIEVED from local PDFs (3 books, 1.5MB combined text); web search BLOCKED by Nous Gateway + captcha; no additional online measurement databases reachable from this session.
