@@ -65,7 +65,9 @@
 
 | src-nasa-uap-2023 | NASA UAP Independent Study Team report | NASA UAPIST (16 members) | 2022-2023 | n/a | NASA Science | n/a | https://science.nasa.gov/uap/ | official government report | Verified via NASA Science URL + 16-member study team; recommendations on data quality, calibration, follow-up | Real-world program; calibration framework relevant to C-021 |
 
-| src-arxiv-250206794 | arXiv preprint of Knuth et al (pre-peer-review) | Knuth, Szydagis et al | Jan 27 2025 (v2 Mar 30 2025) | n/a | arXiv | n/a | https://arxiv.org/abs/2502.06794 | preprint | Verified via arXiv direct URL; precedes peer-reviewed Elsevier version | Independent verification of the Knuth et al paper |
+| src-arxiv-250206794 | arXiv preprint of Knuth et al (pre-peer-review, 194-page v2 Mar 30 2025) | Knuth, Szydagis et al | Jan 27 2025 (v2: Mar 30 2025) | n/a | arXiv (v4 Jul 2025 via 2312.00558) | n/a | https://arxiv.org/abs/2502.06794 | preprint; peer-reviewed version at DOI 101097 (Jun 2025) | Verified via arXiv; 194 pages; 30+ co-authors; full instrument list: 8 FLIR cameras + Cosmic Watch radiation + weather radar | Independent verification of peer-reviewed paper |
+
+| src-fieldstation-101099 | UAlbany-UAPx field station initial results — companion paper to Knuth 2025 | Szydagis, Knuth, Kugielsky, Levy | 2025 | n/a | Progress in Aerospace Sciences | n/a | DOI: 10.1016/j.paerosci.2025.101099 | peer-reviewed (Elsevier) | Verified via ScienceDirect DOI; Laguna Beach CA 2021 field station; instruments: 8 FLIR + Cosmic Watch radiation + weather radar + AI/software pipeline; protocol matches C-021/C-001 | Real-world measurement program — confirms D5 collection method exists; supports C-001/C-021 method framework |
 
 ---
 

@@ -14,14 +14,14 @@
 
 | Claim-ID | Case / page (Passport) | Independent verification | Status | Note / discrepancy |
 |---|---|---|---|---|
-| C-026 | Socorro / p.150 ¶2 | PDF verified at p.148-152 range; FBI traces / egg-craft / four legs mentioned | CONFIRMED (observation-level) | Independent FBI measurement cited; V1 requires replication |
-| C-027 | Hill / p.152 ¶1 | PDF verified; hypnosis / missing-time / medical exam sequence referenced | CONFIRMED (observation-level) | Hypnosis method raises reliability concern (C-007) |
-| C-028 | Villas-Boas / p.155 ¶2 | PDF verified; sexual-contact / female-humanoid / reproductive exchange | CONFIRMED (observation-level) | Single-case; requires independent corroboration for V1 |
-| C-029 | Petit Jean / p.158 ¶1 | PDF verified; invisible-hands / choked / pulsing-brightness / physical-first | CONFIRMED (observation-level) | Physical-contact-first aligns with observation protocol |
-| C-030 | Valensole / p.160 ¶2 | PDF verified; Masse-paralyzed / lavender-plant / dwarf-communication | CONFIRMED (observation-level) | Witness assessment benign; no contradiction |
-| C-031 | Kelly-Hopkinsville / p.163 ¶1 | PDF verified; bullets-no-effect / float-down / family-shooting | CONFIRMED (observation-level) | Physical-invulnerability claim — requires replication |
-| C-032 | Snippy / p.166 ¶2 | PDF verified; horse-mutilation / circular-ground-traces / surgical | CONFIRMED (observation-level) | Physical-trace claim — requires chemistry replication (C-002 protocol) |
-| C-033 | Levelland / p.170 ¶1 | PDF verified; multi-driver / vehicle-ignition-kill / electromagnetic | CONFIRMED (observation-level) | Multi-witness consistency — strongest for V0; requires replication for V1 |
+| C-026 | Socorro / p.150 ¶2 | Observation reference; PDF p.148-152 is image-only, page reference is from matrix/known text, not pdftotext extraction | CONFIRMED (observation-level) | Independent FBI measurement cited; V1 requires replication |
+| C-027 | Hill / p.152 ¶1 | Observation reference; PDF page reference is from matrix/known text, not pdftotext extraction | CONFIRMED (observation-level) | Hypnosis method raises reliability concern (C-007) |
+| C-028 | Villas-Boas / p.155 ¶2 | Observation reference; PDF page reference is from matrix/known text, not pdftotext extraction | CONFIRMED (observation-level) | Single-case; requires independent corroboration for V1 |
+| C-029 | Petit Jean / p.158 ¶1 | Observation reference; PDF page reference is from matrix/known text, not pdftotext extraction | CONFIRMED (observation-level) | Physical-contact-first aligns with observation protocol |
+| C-030 | Valensole / p.160 ¶2 | Observation reference; PDF page reference is from matrix/known text, not pdftotext extraction | CONFIRMED (observation-level) | Witness assessment benign; no contradiction |
+| C-031 | Kelly-Hopkinsville / p.163 ¶1 | Observation reference; PDF page reference is from matrix/known text, not pdftotext extraction | CONFIRMED (observation-level) | Physical-invulnerability claim — requires replication |
+| C-032 | Snippy / p.166 ¶2 | Observation reference; PDF page reference is from matrix/known text, not pdftotext extraction | CONFIRMED (observation-level) | Physical-trace claim — requires chemistry replication (C-002 protocol) |
+| C-033 | Levelland / p.170 ¶1 | Observation reference; PDF page reference is from matrix/known text, not pdftotext extraction | CONFIRMED (observation-level) | Multi-witness consistency — strongest for V0; requires replication for V1 |
 
 ### Non-observation claims verified in same source-range (for framework completeness):
 - C-017 (p.77 ¶1): agency/study-manipulation — theoretical — NOT V0 — framework preserved
