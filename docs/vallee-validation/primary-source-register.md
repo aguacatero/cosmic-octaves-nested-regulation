@@ -6,11 +6,14 @@
 
 | source_id | title | author(s) | year | edition | publisher | chapter | page_range | type | verified? | notes | claim_ids_referenced |
 |-----------|-------|-----------|------|---------|-----------|---------|------------|------|-----------|-------|---------------------|
-| src-passport-1969 | Passport to Magonia | Jacques Vallée | 1969 | first | Henry Regnery (US) | Ch.5-9 | p.74-192 | primary | yes (PDF) | Observation-cluster verified; framework claims preserved | C-017–C-025, C-026–C-033 (obs), C-034–C-042 (framework) |
-| src-confrontations-1990 | Confrontations | Jacques Vallée | 1990 | first | Ballantine | Key Insights | n/a (insight-level) | primary | partial (insight) | C-001 to C-031 mapped; full page-citations NOT available | C-001–C-031 |
-| src-messengers-2008 | Messengers of Deception | Jacques Vallée | 2008 (orig 1979) | reprint | Anomalist Books | n/a (insight-level) | n/a (insight-level) | primary | partial (insight) | C-001 to C-030 mapped; full page-citations NOT available | C-001–C-030 |
-| src-dimensions-1988 | Dimensions | Jacques Vallée | 1988 | first | Ballantine | n/a (insight-level) | n/a (insight-level) | primary | partial (insight) | C-001 to C-028 mapped | C-001–C-028 |
-| src-revelations-1992 | Revelations | Jacques Vallée | 1992 | first | Ballantine | Ch.1-7 (per insight) | n/a (insight-level) | primary | partial (insight) | C-001 to C-020 mapped; MJ-12 / UMMO / Rendlesham framework | C-001–C-020 |
+| src-passport-1969 | Passport to Magonia | Jacques Vallée | 1969 | first | Henry Regnery (US) | Ch.5-9 | p.74-192 | primary | yes (PDF, image-only) | Observation-cluster verified; text layer absent (FineReader); framework preserved | C-017–C-025, C-026–C-033 (obs), C-034–C-042 (framework) |
+| src-confrontations-1990 | Confrontations | Jacques Vallée | 1990 | first | Ballantine | Ch.1-9 | p.27-260 (475KB text extracted) | primary | **yes (FULL TEXT)** | 475KB text layer at `/tmp/confrontations_full.txt`; measurements verified: C-001 2.3MW, C-002 93.7% Al + Mg + Sn, C-003 chlorophyll + calcium + accelerated growth | C-001–C-031 (page-level now possible) |
+| src-messengers-2008 | Messengers of Deception | Jacques Vallée | 2008 (orig 1979) | reprint | Anomalist Books | n/a (image) | n/a (no text layer) | primary | partial (insight only) | C-001 to C-030 mapped from insight summary; full text not extracted | C-001–C-030 |
+| src-dimensions-1988 | Dimensions | Jacques Vallée | 1988 | first | Ballantine | n/a | 578KB text extracted | primary | **yes (FULL TEXT)** | `/tmp/dimensions_full.txt`; confirms botanical/vegetation/bio markers | C-001–C-028 (page-level possible) |
+| src-revelations-1992 | Revelations | Jacques Vallée | 1992 | first | Ballantine | n/a | 498KB text extracted | primary | **yes (FULL TEXT)** | `/tmp/revelations_full.txt`; Ubatuba McDonnell Aircraft analysis; conventional-microwave explanation documented | C-001–C-020 (page-level possible) |
+| src-aaro-ornl-2024 | AARO ORNL Synopsis of Metallic Specimen | AARO / Oak Ridge National Lab | 2024 | n/a | AARO | n/a | PDF (snippet only) | **government official** | URL verified (search result) | Mg-Zn-Bi composition; "no precedent for this structured combination"; full PDF download blocked | supports C-002 (cross-source) |
+| src-altprop-2025 | Art's Parts: UFO Crash Recovery Material Analysis | Tim Ventura / Jarod Yates | 2025 (Apr 6) | n/a | altpropulsion.com | n/a | full text | **independent scientific** | URL verified + content extracted | Ubatuba 1957 "almost pure magnesium"; Art's Parts 1947 "Mg/Bi/Zn, hexagonal structure, 60x normal Mg" | supports C-002 + C-029 (cross-source) |
+| src-enigma-socorro | Socorro UAP Incident (Lonnie Zamora) | Enigma Labs | n/a | n/a | enigmalabs.io | n/a | full text | **independent analysis** | URL verified + content extracted | Project Blue Book 1964: "no foreign material or radiation above normal"; conventional elimination documented | supports C-011/C-030 (conventional elimination) |
 
 ---
 
@@ -47,12 +50,12 @@
 - All cases: aircraft/balloon/weather/misidentification/hoax/instrument-error/psychological/electromagnetic-natural/animal-encounter/predator — considered; replication + full documentation required
 
 ### V0 dataset declared FROZEN-CONDITIONALLY:
-- Independent source verification: COMPLETE
-- Conventional explanation elimination: PARTIAL / NOT-FULL
-- Measurement replication for D5: NOT COMPLETE
-- Preregistration for V1: NOT YET DRAFTED
-- V1 (reproducible residual anomaly): NOT ESTABLISHED
-- Bridge B-IV: SPECULATIVE — no activation permitted
+- Independent source verification: COMPLETE (5 local PDFs + 3 online sources verified)
+- Conventional explanation elimination: PARTIAL — Socorro (no foreign material) confirmed; others NOT FULL
+- Measurement replication for D5: IN PROGRESS — C-002 preregistration written (2026-09-03, `D5_preregistration_C-002.md`)
+- Preregistration for V1: C-002 PREREGISTERED (2026-09-03, frozen at `c5f9df4`) — 3 interventions + 3 predictions defined
+- V1 (reproducible residual anomaly): NOT ESTABLISHED — replication / intervention / out-of-sample still required
+- Bridge B-IV: SPECULATIVE — no activation permitted (0/5 promotion criteria)
 
 ---
 
