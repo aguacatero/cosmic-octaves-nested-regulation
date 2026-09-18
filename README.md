@@ -1,97 +1,407 @@
-# Cosmic Octaves <> Jack Synth
+# Cosmic Octaves <> Nested Regulation
 
-> **TL;DR**: This is a research project — not a theory. It asks whether a 10²⁴-meter scale pattern (Chris Lehto, "Cosmic Octaves") is a real phenomenon, and whether it can be connected to the idea that human systems might be part of a larger regulatory structure (inspired by Jacques Vallée's work on anomalous manifestations). Everything is preregistered, falsifiable, and designed so that each hypothesis can fail on its own — without dragging the others down.
+> **TL;DR:** This is a research project asking whether several unusual lines of evidence can be tested as parts of a larger **nested regulatory system** — without assuming in advance that they are connected. The project separates Chris Lehto's scale-recurrence work, Jacques Vallée's control-system hypothesis, Patrick Jackson's proposed sphere/network model, VASCO astronomical transients, physical-material evidence, and possible effects on human perception/consciousness into independent branches that must each earn support on their own.
 
----
+This repo is **not** a claim that a conscious universe, hidden network, or UAP control system has been proven.
 
-## What's here
-
-| Branch | What it tests | Status |
-|--------|---------------|--------|
-| **S** — Scale Recurrence | Is the 10²⁴-meter pattern real? | Active (MVP) |
-| **R** — Regulation | Can we detect feedback regulation in known systems? | Active (calibration) |
-| **C** — Cognition / Agency | Can a system learn, choose, or be conscious? | Parked |
-| **I** — Cross-Level Influence | Does a higher level influence a lower level? | Speculative |
-| **V** — Anomalous Manifestation / UAP | Do anomalous events exist after conventional explanations? | V0/V1 active |
-
-**Bridges** (S↔R, R↔C, R↔I, I↔V) are all **speculative** — they must earn activation by making a novel prediction that neither parent branch alone predicts.
+The goal is to turn those ideas into tests that can fail.
 
 ---
 
-## What this repo is NOT
+# The Simple Idea
 
-- **Not a proof** that the universe is conscious or that anomalous events are real.
-- **Not a unified theory** — the branches are independent. Two interesting findings do not make one theory.
-- **Not a substitute for primary sources** — Vallée's books are cited as provenance only. His control-system model is not used as evidence that a regulatory system exists.
+Think about a living body.
 
----
+A body can:
 
-## Core Doctrine (9 rules)
+1. notice that something has moved outside a healthy range;
+2. sense what is happening;
+3. send information through a distributed network;
+4. trigger a corrective response;
+5. change the behavior of lower-level parts;
+6. reduce or change the response when the system returns toward normal.
 
-1. **No branch inherits evidence from another**
-2. **A supported + B supported ≠ A causes B**
-3. **Bridges must make novel joint predictions**
-4. **Measure first, label later** — no "sensing" before sensing is demonstrated
-5. **Models must be falsifiable** — register them tightly
-6. **Preserve nulls and mistakes** — never delete failed analyses
-7. **Discovery ≠ confirmation**
-8. **Regulation ≠ cognition ≠ agency ≠ consciousness**
-9. **Anomalous observations earn their own evidence, independently**
+A cell does not need to understand the whole organism in order to respond to signals from it.
 
----
+The long-term question behind this project is:
 
-## Current State
+> **Could human systems be embedded in something that shows comparable regulatory behavior at a higher organizational level?**
 
-- **Scale branch (S)**: Upstream discovery data vendored (15 structures, byte-for-byte). Rank-1 phase analysis marked **invalidated** (math defect). Corrected reanalysis in progress.
-- **Regulation branch (R)**: Calibration framework defined. Positive/negative controls selected. Not connected to Scale yet.
-- **Vallée branch (V)**: **COMPLETE** — primary-source register (12 verified sources: 5 Vallée books + AARO ORNL + Alt Propulsion Ubatuba + Enigma Labs Socorro + UAlbany-UAPx peer-reviewed papers + SCU + NASA UAP + arXiv preprint), claim-evidence matrix (120 claims across 5 books, full §8.2 schema), D5 measurement framework (9 anchors, all Q10-scored), C-002 preregistration frozen before analysis (6 Q10 criteria + 3 interventions + 3 predictions), XRF soil-prep protocol retrieved (protocols.io DOI verified), real-world research programs verified (UAlbany-UAPx field station with 8 FLIR + Cosmic Watch + weather radar, peer-reviewed June 2025; SCU; NASA UAP; AARO). All cross-verified by 2 independent subagent models. No fabricated data.
-- **Bridges**: All speculative. None activated. Bridge B-IV (Influence ↔ Anomalous Manifestation): 0/5 promotion criteria. V1-ELIGIBLE: NO — preregistration frozen but not yet executed on a physical sample.
-- **Next concrete step**: Execute frozen C-002 preregistration protocol on a physical sample (collaboration with UAlbany-UAPx / SCU / university XRF service — email draft ready at `docs/vallee-validation/EMAIL_DRAFT_knuth_cold_contact.md`).
+That is a hypothesis — not a conclusion.
 
 ---
 
-## How to Read This Repo
+# A Second Analogy: Electronic Countermeasures (ECM)
 
-1. Start with `docs/research-architecture-v2.md` — the constitution.
-2. Pick a branch (e.g., `docs/hypothesis-families/scale.md`) — read its sub-branches and criteria.
-3. Check `docs/methodology/` for evidence-status vocabulary, preregistration policy, and falsification rules.
-4. For Vallée: `docs/vallee-validation/primary-source-register.md` + `claim-evidence-matrix.md` (awaiting your primary-source data).
+One of the newer research questions concerns **human consciousness as an information channel**.
+
+Electronic countermeasures do not always attack the physical target. They can attack the information received by a radar:
+
+```text
+real aircraft
+    ↓
+radar signal
+    ↓
+ECM changes what the radar receives
+    ↓
+wrong range / false target / ambiguity / lost track
+```
+
+The aircraft is still where it is. The information channel has been altered.
+
+The observer-channel hypothesis asks whether something analogous could happen with human perception:
+
+```text
+underlying event
+      ↓
+objective physical state
+      ↓
+human observer channel
+      ↓
+perception → memory → interpretation → report
+      ↓
+individual / social response
+```
+
+Possible questions include:
+
+- Do people systematically miss or misidentify features that independent sensors record?
+- Are errors random, or do they repeatedly make an event **less identifiable**?
+- Does the discrepancy change depending on what information or sensors are available?
+- Do perception, memory, or belief changes participate in a larger feedback loop?
+
+This does **not** mean witness error is evidence of manipulation. Ordinary perception, memory, expectation, social influence, media effects, fraud, and instrument limitations are mandatory competing explanations.
+
+The ECM analogy is a **hypothesis generator**, not evidence.
+
+See: `docs/hypothesis-families/observer_channel_modulation.md`.
 
 ---
 
-## Data Sources (verified — all retrieved from real files / URLs / subagent reports; not invented)
+# The Research Branches
 
-- **Scale pattern**: `Chris-L78/cosmic-octaves-analysis` (upstream; vendored in `data/discovery/chris-lehto/`); 15 structures; byte-for-byte; Rank-1 invalidated (math defect).
-- **Vallée primary sources (verified, extracted)** — `/Users/chrisrodriguez/Documents/open-notebook/`:
-  - `jacquesvallee-confrontations-ascientistssearchforaliencontact1990-110213210416-phpapp02.pdf` (475KB text-extractable; measurements C-001/C-002/C-003 confirmed at lines 1212/1813/1767/4192/4155; Commitment `7ed0afd`)
-  - `jacquesvallee-dimensions-casdecontacttssacm-1988-110213205831-phpapp02.pdf` (578KB; bio/energy measurements confirmed; `052004f`)
-  - `Vallée Jacques - Revelations.pdf` (498KB; Ubatuba McDonnell analysis; `052004f`)
-  - `Messengers of Deception - Jacques Vallee.pdf` (verified, image-only — zero text layer; gap noted in register; NOT hidden)
-  - `~/Downloads/JacquesValleePassporttoMagonia.pdf` (16MB, verified image-only — no text layer; `V0_frozen_protocol.md` corrected at `657d364`; NOT used for measurement extraction)
-- **Online sources (verified via `web_search` + `web_extract`)** — see `docs/vallee-validation/primary-source-register.md` for 6 verified sources (UAlbany-UAPx DOI `10.1016/j.paerosci.2025.101097`, Vallée 2025 DOI `10.1016/j.paerosci.2025.101098`, field station DOI `10.1016/j.paerosci.2025.101099`, arXiv `2502.06794`; SCU `explorescu.org`; NASA `science.nasa.gov/uap`; AARO `aaro.mil`). No invented URLs.
-- **D5 framework**: `docs/vallee-validation/D5_measurement_framework.md` (9 anchors); `D5_measurements.md` (262 lines, Q10 per anchor — all STILL-SPECULATIVE; `609d490`); `D5_preregistration_C-002.md` (frozen `c5f9df4` — NOT executed).
-- **Cross-verification**: 2 subagent reports saved at `.hermes/cache/delegation/subagent-summary-0/1-...txt` (`deleg_387dc6a8`); Codex verified measurements + v2 architecture; Antigravity verified DOIs/authors/instruments.
+Each branch is independent. A result in one branch does not automatically support another.
+
+| Branch | Plain-English question | Current status |
+|---|---|---|
+| **S — Scale Recurrence** | Is Lehto's proposed ~10^24-meter recurrence a real pattern rather than selection/statistical artifact? | Active / corrected reanalysis |
+| **R — Regulation** | Can we identify real feedback that maintains or restores a protected state? | Active / calibration |
+| **N — Network Topology** | Do events show reproducible coordination or network roles beyond geometry/common causes? | New / Wayfinder research |
+| **V — Anomalous Observations** | What observations remain after ordinary explanations and data-quality problems are tested? | Active at early evidence levels |
+| **O — Observer-Channel Modulation** | Does human perception/memory/reporting show structured modification beyond ordinary cognition? | New / untested |
+| **I — Cross-Level Influence** | Does a higher level add predictive or causal value for lower-level behavior? | Speculative |
+| **C — Cognition / Agency / System Consciousness** | Does the putative higher-level system itself learn, choose, or meet a specific consciousness test? | Parked / downstream |
+
+## Important distinction: O vs C
+
+These are two different consciousness questions:
+
+- **O:** Is **human consciousness/perception** being used or modified as part of the information/control channel?
+- **C:** Is the **putative higher-level system itself** conscious or agentic?
+
+Evidence for one does not prove the other.
+
+---
+
+# Where the Main Ideas Fit
+
+## Chris Lehto / Cosmic Octaves
+
+Lehto's work motivates the **S branch**: is there really a recurring organizational scale pattern?
+
+It does **not** automatically imply UAP, regulation, or consciousness.
+
+## Jacques Vallée
+
+Vallée provides important theoretical and historical provenance for questions involving:
+
+- control systems;
+- adaptive manifestations;
+- witness/perceptual effects;
+- deception and ambiguity;
+- belief/cultural effects;
+- possible societal influence.
+
+His interpretation is used to generate hypotheses. It is **not evidence that a control system exists**.
+
+## Patrick Jackson / Sphere Network
+
+Jackson's proposed sphere network is treated as a **model generator**.
+
+The project is not starting with "Jackson's spheres are real." It asks whether his claims can be converted into measurable predictions about:
+
+- network motifs;
+- coordination;
+- differentiated roles;
+- relay behavior;
+- persistence;
+- response timing.
+
+We test topology before claiming literal spherical-object identity.
+
+## VASCO
+
+VASCO is currently the strongest candidate for the next empirical phase because it provides large historical astronomical datasets and published transient analyses that can potentially be reproduced and tested with holdouts.
+
+VASCO transients are **not assumed to be spheres, UAP, or part of a network**.
+
+The question is whether frozen network/control predictions can explain unseen data better than ordinary astronomical, survey, plate, and statistical alternatives.
+
+---
+
+# What Counts as Regulation?
+
+The repo deliberately uses strict vocabulary.
+
+- **Response:** something changes after an input.
+- **Coordination:** multiple events/components behave non-independently after shared causes are controlled.
+- **Feedback:** information about the resulting state affects a later response.
+- **Regulation:** feedback moves an independently defined protected variable back toward a viable range.
+- **Agency:** flexible selection among alternatives in pursuit of goals.
+- **Consciousness:** requires its own separately discriminating test.
+
+So:
+
+```text
+response ≠ feedback
+feedback ≠ regulation
+coordination ≠ agency
+regulation ≠ consciousness
+witness discrepancy ≠ consciousness manipulation
+```
+
+This distinction is central to the project.
+
+---
+
+# Observer-Channel Hypotheses
+
+The new O branch keeps two ideas separate.
+
+## O-M — Masking
+
+The event or phenomenon may produce structured changes in perception, memory, confidence, interpretation, or reporting that make it harder to identify accurately relative to independent evidence channels.
+
+The strongest version is not "people make mistakes."
+
+It is something more like:
+
+```text
+objective event
+      ↓
+observer receives information
+      ↓
+error changes in a repeatable direction
+      ↓
+result is greater ambiguity or misidentification
+```
+
+If error changes adaptively with context or available information, that would be more interesting still.
+
+## O-S — Steering
+
+A stronger hypothesis is that manifestations influence individual or collective cognition/behavior in a direction related to a larger system state.
+
+That requires much more evidence. Cultural change after a UFO story is not enough.
+
+A serious steering test would require a predefined social/system state, predicted direction, timing, competing social/media models, and evidence of a closed feedback loop.
+
+Masking is therefore the nearer-term target; steering remains farther downstream.
+
+---
+
+# How the Pieces Could Eventually Connect
+
+The project does **not** currently claim this loop exists, but this is the kind of architecture it is trying to make testable:
+
+```text
+higher-level / network state
+          ↓
+physical event or manifestation
+          ↓
+observer-channel effect
+          ↓
+human / cultural response
+          ↓
+system state changes
+          ↓
+future manifestation changes
+```
+
+A genuine control-system result would need to show that the response is not merely correlated with the system state, but has a measurable **corrective direction**, stable timing, feedback, and recovery/adaptation.
+
+---
+
+# Bridges Must Earn Activation
+
+The branches can only be connected through explicit bridge hypotheses.
+
+Current candidate bridges include:
+
+- **B-SR:** Scale ↔ Regulation
+- **B-NR:** Network ↔ Regulation
+- **B-NV:** Network ↔ Anomalous Observations
+- **B-OV:** Observer Modulation ↔ Anomalous Observations
+- **B-OR:** Observer Modulation ↔ Regulation
+- **B-RI:** Regulation ↔ Cross-Level Influence
+- **B-IV:** Cross-Level Influence ↔ Anomalous Observations
+
+A bridge is not activated because two ideas "fit together."
+
+It needs a **novel joint prediction** that neither parent branch predicts alone, frozen before confirmation data, and tested out-of-sample against explicit alternatives.
+
+---
+
+# Core Doctrine
+
+1. **No branch inherits evidence from another.**
+2. **A supported + B supported does not mean A causes B.**
+3. **Bridges require novel joint predictions.**
+4. **Measure first, label later.**
+5. **Models must be falsifiable.**
+6. **Preserve null results and mistakes.**
+7. **Discovery is not confirmation.**
+8. **Regulation, cognition, agency, consciousness, and observer modulation are different claims.**
+9. **Extraordinary observations earn evidence independently.**
+10. **Analogies generate tests; they do not count as evidence.**
+
+---
+
+# Current State
+
+## Scale (S)
+
+- Upstream Cosmic Octaves discovery data are vendored.
+- The earlier Rank-1 phase analysis was marked **INVALIDATED** because of a mathematical defect.
+- Corrected reanalysis is the appropriate path forward.
+
+## Regulation (R)
+
+- Calibration framework exists.
+- Positive and negative control systems are being used to distinguish real regulation from passive dynamics.
+- R is intentionally not connected to Scale during calibration.
+
+## Vallée / anomalous evidence (V)
+
+- Vallée primary-source work has been assembled and separated into observations vs interpretations.
+- A measurement framework and source register exist.
+- The frozen C-002 materials preregistration remains preserved.
+
+## Materials / C-002
+
+Dr. Kevin Knuth was unable to assist with sample access/testing.
+
+That no longer blocks the wider project.
+
+C-002 remains frozen and may be executed if a provenance-qualified sample becomes available. Meanwhile the materials work can continue through:
+
+- **M0:** reproduce published/open data;
+- **M1:** calibrate methods on known materials cases;
+- **M2:** research sample provenance and lawful access;
+- **M3:** physically replicate only when a qualified sample exists.
+
+Failure to obtain a sample is not evidence for or against the claim.
+
+## Network (N), VASCO, and Observer Modulation (O)
+
+These are now the main Wayfinder research frontier.
+
+The immediate work is to:
+
+1. audit exactly what Patrick Jackson claims and turn usable claims into quantitative predictions;
+2. audit/reproduce VASCO results and identify genuinely untouched confirmation data;
+3. determine which materials analyses can be reproduced without rare samples;
+4. determine whether observer-channel masking can be measured against objective/independent channels and ordinary cognitive baselines.
+
+---
+
+# Current Wayfinder Map
+
+The v3 architecture is being developed through GitHub Issue **#1** and its child research/grilling tickets.
+
+Current research tickets:
+
+- **#2** — Jackson claim audit
+- **#3** — VASCO evidence/data/holdout audit
+- **#4** — sample-free materials audit
+- **#10** — observer-channel masking / steering audit
+
+Downstream decisions include:
+
+- **#6** — Network N0→N3 evidence gates
+- **#7** — Network ↔ VASCO joint prediction
+- **#8** — Network ↔ Regulation gate
+- **#9** — discovery/confirmation holdout policy
+- **#11** — Observer Modulation O0→O3 evidence gates
+
+See `docs/research-architecture-v3-draft.md` for the full working architecture.
+
+---
+
+# How to Read This Repo
+
+For the current direction:
+
+1. **Start here** — `README.md`
+2. **Read the working v3 architecture** — `docs/research-architecture-v3-draft.md`
+3. **Read the observer hypothesis** — `docs/hypothesis-families/observer_channel_modulation.md`
+4. **Read the existing constitutional baseline** — `docs/research-architecture-v2.md`
+5. **Pick a hypothesis family** — `docs/hypothesis-families/`
+6. **For Vallée/source validation** — `docs/vallee-validation/`
+7. **Follow the live decisions/research** — GitHub Issues, beginning with #1
+
+The v3 document is still a **Wayfinder draft** and does not supersede v2 until the map clears and a final specification is approved.
+
+---
+
+# What This Repo Is NOT
+
+This repository does **not** currently claim that:
+
+- the universe is conscious;
+- Cosmic Octaves is established;
+- Patrick Jackson's Sphere Network exists;
+- VASCO transients are spheres or UAP;
+- Jacques Vallée's control-system interpretation is correct;
+- witness discrepancies prove consciousness manipulation;
+- anomalous materials are extraterrestrial;
+- a higher-level controller has been demonstrated.
+
+The project is designed so that each of those ideas can fail without requiring the others to fail.
+
+That is the point.
+
+---
+
+# Research Order
+
+```text
+reproduce / audit existing evidence
+        ↓
+define competing models and nulls
+        ↓
+freeze discovery vs confirmation data
+        ↓
+preregister a discriminating prediction
+        ↓
+test on untouched data
+        ↓
+preserve positive AND negative results
+        ↓
+only then consider bridge promotion
+```
+
+The best experiment is not the one most likely to produce an exciting result.
+
+It is the one most capable of telling us that an idea is wrong.
 
 ---
 
 ## License & Provenance
 
-- **License**: MIT
-- **Author / owner**: aguacatero (github.com/aguacatero/cosmic-octaves-nested-regulation)
-- **Project workspace**: `p_bb1ac287` — "Cosmic Octives <> Jack Synth"
-- **Source brief**: `/Users/chrisrodriguez/Downloads/wayfinder_cosmic_octaves_nested_regulation.md` (v1)
-- **Architecture source**: `cosmic_octaves_vallee_handoff_v2.md` (grilling outcomes, 26 locked decisions)
-
----
-
-## Next Steps (current — not aspirational)
-
-- [x] **Vallée primary-source verification (COMPLETE)** — 5 books verified (Confrontations 475KB / Dimensions 578KB / Revelations 498KB / Messengers image-only / Passport image-only); 120 claims in claim-evidence-matrix; source register (`primary-source-register.md`) updated with 6 verified sources (UAlbany-UAPx 101097/101098/101099 + SCU + NASA + arXiv + AARO); V0 freeze (`V0_frozen_protocol.md`) corrected at `657d364` (Honest: Passport references = observation-reference, not pdftotext).
-- [x] **D5 measurement framework (COMPLETE)** — 9 anchors, Q10 validation (`D5_measurements.md`), real-world measurements (C-001 2.3MW / C-002 93.7% Al / C-003 chlorophyll + calcium + growth), all STILL-SPECULATIVE; B-IV SPECULATIVE.
-- [x] **C-002 preregistration frozen (COMPLETE)** — `D5_preregistration_C-002.md` (`c5f9df4`) frozen before analysis (all 6 Q10 + 3 interventions + 3 predictions); NOT executed — requires physical sample.
-- [x] **XRF protocol retrieved (COMPLETE)** — `C-002_XRF_protocol_retrieved.md` (`e92c149`) from verified protocols.io DOI (`10.17504/protocols.io.n2bvj384plk5`).
-- [x] **Real-world programs verified (COMPLETE)** — UAlbany-UAPx 2025 (3 DOIs + field station + instrument list verified by Antigravity subagent); SCU (explorescu.org + 2026 summit); NASA UAP; AARO; 2 subagent verification reports saved (`subagent-summary-0/1-...txt`).
-- [x] **Cross-verification (COMPLETE)** — Codex + Antigravity both confirmed; 5 honest gaps reported (1 fixed — Passport reference; 4 preserved — C-001/C-024 overlap; C-021 method vs Q10; prereg page refs; Messengers unverified); nothing hidden.
-- [x] **Durable handoff + execution path (COMPLETE)** — `NEXT_STEP_execution_path.md` (`b64379e`) + `EMAIL_DRAFT_knuth_cold_contact.md` (`71a0226`) — concrete options: (1) email Knuth (no sample needed — uses UAPx existing; verified contact `kknuth@albany.edu`); (2) university XRF service work; (3) partnership with sourcing sub-step; (4) stop.
-- [ ] **Execute frozen C-002 protocol (NOT STARTED)** — requires your independent action: physical sample + lab + replication + out-of-sample test + peer-reviewed publication. V1-ELIGIBLE stays NO; B-IV stays SPECULATIVE (0/5) until this runs.
-- [ ] **Bridge B-IV activation (NOT STARTED)** — requires V1 on both parents + novel joint prediction + out-of-sample replication + combined model > independent. Blocked on execution, not documentation.
+- **License:** MIT
+- **Repository owner:** `aguacatero`
+- **v2 constitutional architecture:** `docs/research-architecture-v2.md`
+- **v3 Wayfinder draft:** `docs/research-architecture-v3-draft.md`
+- **Observer-channel hypothesis:** `docs/hypothesis-families/observer_channel_modulation.md`
+- **Vallée/source validation:** `docs/vallee-validation/`
