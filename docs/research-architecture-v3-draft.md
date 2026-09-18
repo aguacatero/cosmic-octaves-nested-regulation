@@ -2,7 +2,8 @@
 
 **Status:** DRAFT / WAYFINDER IN PROGRESS  
 **Date:** 2026-09-18  
-**Authority:** This document records accepted v3 direction while the Wayfinder map is still open. It does **not** supersede `docs/research-architecture-v2.md` until the v3 map clears and the final spec is approved.
+**Authority:** This document records accepted v3 direction while the Wayfinder map is still open. It does **not** supersede `docs/research-architecture-v2.md` until the v3 map clears and the final spec is approved.  
+**Live Wayfinder map:** GitHub Issue #1
 
 ---
 
