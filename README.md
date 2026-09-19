@@ -1,99 +1,220 @@
-# Cosmic Octaves <> Nested Regulation
+# Anomalous System of Control: Project REGULUS
 
-> **TL;DR:** This is a falsifiable research program asking whether several unusual lines of evidence can be tested as parts of a larger **nested regulatory system** — without assuming in advance that they are connected.
+> **Project REGULUS** is a falsifiable research program investigating whether apparently separate anomalous, physical, informational, cognitive, and social observations can provide evidence for a larger **regulatory or control architecture operating across organizational levels**.
+>
+> The title names the **target hypothesis**, not an established result. The project does not begin by assuming that a hidden controller, anomalous network, higher-order regulator, or conscious system exists.
 
-The project keeps Chris Lehto's scale-recurrence work, Jacques Vallée's control-system hypothesis, Patrick Jackson's proposed sphere/network model, VASCO/POSS-I astronomical transients, physical-material evidence, and possible observer/consciousness effects in **separate hypothesis families** that must each earn support on their own.
+The core question is:
 
-This repository does **not** claim that a conscious universe, hidden network, UAP control system, or consciousness-manipulation mechanism has been proven.
+> **Can independently validated observations across different domains reveal signatures of coordination, feedback, regulation, cross-level influence, or observer-channel modulation that are better explained by a common control architecture than by ordinary independent mechanisms?**
 
-The goal is to turn unusual ideas into tests that can fail.
+Project REGULUS treats each evidence family separately first. Scale recurrence, anomalous astronomical observations, proposed network behavior, physical traces, observer effects, regulation, cross-level influence, agency, and consciousness must each earn support under their own methods. Connections between them are permitted only when a bridge hypothesis makes a new prediction that survives adversarial and out-of-sample testing.
 
----
-
-## Start here
-
-For an outside scientific reviewer, read these in order:
-
-1. **[`SCIENTIFIC_STATUS.md`](SCIENTIFIC_STATUS.md)** — one-page statement of what is supported, contested, speculative, invalidated, and blocked.
-2. **[`SCIENTIFIC_RIGOR_AUDIT.md`](SCIENTIFIC_RIGOR_AUDIT.md)** — branch-by-branch methodological readiness and the exact gaps preventing confirmatory claims.
-3. **[`CLAIM_LEDGER.md`](CLAIM_LEDGER.md)** — separates observations, source claims, interpretations, our hypotheses, predictions, and evidentiary status.
-4. **[`ADVERSARIAL_EVIDENCE.md`](ADVERSARIAL_EVIDENCE.md)** — strongest supportive and critical evidence side by side.
-5. **[`PEER_REVIEW_ROADMAP.md`](PEER_REVIEW_ROADMAP.md)** — path from this research architecture to narrow peer-reviewed studies.
-6. **[`docs/methodology/scientific-rigor-gate.md`](docs/methodology/scientific-rigor-gate.md)** — mandatory gates for evidence search, rivals, measurement, design, statistics, data provenance, reproducibility, methods review, and confirmation.
-7. **[`docs/research-architecture-v3-draft.md`](docs/research-architecture-v3-draft.md)** — full working architecture.
-8. **[`docs/external-review/README.md`](docs/external-review/README.md)** — source-specific correction questions for Lehto, Vallée, Jackson, and Villarroel.
-
-The v3 architecture is still a **Wayfinder draft** and does not supersede the v2 constitutional baseline until the map clears and a final specification is approved.
+The long-term goal is not to accumulate unusual stories. It is to determine how far the evidence can legitimately move along a chain from **anomaly → structure → feedback → regulation → cross-level influence → observer involvement → agency/consciousness**, while allowing the program to stop at any earlier step if the evidence does not justify moving farther.
 
 ---
 
-# The simple idea
+# Why REGULUS?
 
-Think about a living body.
+**REGULUS** is both the project name and a compact statement of the research architecture:
 
-A body can:
+- **R — Regulation:** Does a system maintain or restore an independently defined protected state?
+- **E — Emergence:** Do higher-order patterns appear that are not captured by isolated-event descriptions alone?
+- **G — Governance:** Are there reproducible constraints, corrective dynamics, or control relationships among system components?
+- **U — Uncertainty:** Are uncertainty, alternative explanations, measurement error, and model ambiguity explicitly represented rather than explained away?
+- **L — Levels:** Do relationships operate across organizational levels rather than only within one scale or domain?
+- **U — Unified:** Can independently supported branches eventually make successful joint predictions under a shared model?
+- **S — Systems:** Can the observations be analyzed as bounded systems with measurable states, inputs, outputs, feedback, and competing models?
 
-1. notice that something has moved outside a healthy range;
-2. sense what is happening;
-3. send information through a distributed network;
-4. trigger a corrective response;
-5. alter lower-level behavior;
-6. reduce or change the response when the system returns toward normal.
+`Governance` does **not** imply a governor, intention, or agency. In REGULUS it means measurable organization or constraint. Likewise, `Unified` is an empirical target: the project may ultimately conclude that the branches are unrelated.
 
-A cell does not need to understand the whole organism in order to respond to signals from it.
-
-The long-term question is:
-
-> **Could human systems be embedded in something that shows comparable regulatory behavior at a higher organizational level?**
-
-That is a hypothesis — not a conclusion.
+The name therefore describes the question the program is trying to earn the right to answer.
 
 ---
 
-# The ECM analogy: consciousness as an information channel
+# The hypothesis space in plain language
 
-One research branch asks whether **human perception/consciousness could be part of the information channel** through which an anomalous process operates.
+Several lines of work motivated this project. None is treated as authority or proof. Each contributes a different question that can be isolated, criticized, measured, and potentially falsified.
 
-Electronic countermeasures (ECM) do not always alter the physical target. They can alter what a radar receives:
+## Chris Lehto / Cosmic Octaves — scale recurrence
+
+Lehto's Cosmic Octaves work motivates the **Scale Recurrence** branch.
+
+The underlying question is whether characteristic physical structures or transitions recur across very different scales in a way that exceeds selection effects, flexible pairing rules, measurement uncertainty, and chance.
+
+The project does **not** infer regulation, UAP, intelligence, or consciousness from a scale pattern. An earlier Rank-1 phase result in this repository was explicitly marked **INVALIDATED** after a mathematical defect was identified. Existing scale data therefore remain exploratory until a defensible independent confirmation path exists.
+
+## Jacques Vallée — control systems, adaptation, and the observer
+
+Jacques Vallée's work provides historical and theoretical provenance for a different family of questions: whether anomalous phenomena may behave less like isolated objects and more like an **adaptive control process** whose effects include physical events, witness experience, belief, culture, ambiguity, and changing manifestations.
+
+REGULUS does not treat Vallée's interpretation as evidence that a control system exists. Instead, it asks what observations would actually be required to distinguish:
 
 ```text
-real aircraft
-    ↓
-radar signal
-    ↓
-ECM modifies the information channel
-    ↓
-wrong range / false target / ambiguity / lost track
+unusual event
+    from
+repeatable response
+    from
+feedback
+    from
+regulation
+    from
+adaptive control
 ```
 
-The underlying aircraft has not moved simply because the receiver has been deceived.
+A disturbance followed by an unusual event is not enough. A regulation claim requires a system boundary, a protected state or viability region, identifiable disturbances, a candidate feedback path, corrective direction, causal evidence, and superior closed-loop prediction.
 
-The observer-channel hypothesis asks whether something analogous could occur with human information processing:
+## Patrick Jackson / proposed sphere network — topology before identity
+
+Patrick Jackson's work motivates the **Network Topology** branch.
+
+His proposed sphere-network interpretation is treated as a model generator, not as established evidence that such a network exists. The first scientific question is therefore not "are the spheres real?" or "what are they?"
+
+It is whether the claims can be converted into quantitative predictions about:
+
+- recurring network motifs;
+- differentiated functional roles;
+- relay or handoff behavior;
+- persistence and spatial organization;
+- response timing;
+- state-dependent coordination;
+- behavior that outperforms independent-event, geometry, reporting, and shared-cause alternatives on unseen data.
+
+REGULUS tests **topology and coordination before object identity**.
+
+## VASCO / POSS-I — a contested empirical testbed
+
+VASCO and POSS-I archival astronomical-transient work currently provides the program's strongest near-term route to conventional empirical science.
+
+The branch is valuable because there are published claims, published methodological criticism, responses, independent reanalysis, feature-validation work, and candidate data that can support a transparent adversarial adjudication.
+
+REGULUS does not assume that POSS-I transients are UAP, artificial objects, spheres, or nodes in a network. The immediate question is narrower:
+
+> Which reported transient associations reproduce after dataset definitions, observing opportunity, plate/systematic effects, feature validity, artifact probability, geometry, multiplicity, and competing analysis choices are frozen and tested?
+
+If no genuinely untouched confirmation set exists, the work will be labeled **reanalysis/reproducibility**, not retroactively promoted to confirmation.
+
+## Materials and physical traces — independent physical evidence
+
+The materials branch asks whether claimed anomalous physical evidence survives provenance, chain-of-custody, measurement, contamination, and comparison against known materials.
+
+Physical-material evidence does not inherit support from witness reports, network hypotheses, VASCO, or Vallée's interpretation. Sample access is currently opportunistic rather than a critical dependency, so the project can continue through open-data reproduction, method calibration, provenance research, and later physical replication if a qualified sample becomes available.
+
+## The ECM observer-channel hypothesis — perception as a potentially modifiable channel
+
+A central REGULUS hypothesis introduced by this project concerns the **human observer as an information channel**.
+
+Electronic countermeasures provide the engineering analogy.
+
+A radar attempts to infer a real target from information reaching the receiver. Countermeasures can alter that information without necessarily changing the physical target itself:
+
+```text
+real target
+    ↓
+sensor signal
+    ↓
+information channel
+    ↓
+ECM / interference
+    ↓
+missed detection / ambiguity / false target / wrong estimate
+```
+
+The REGULUS observer-channel hypothesis asks whether human perception, memory, interpretation, confidence, reporting, or social transmission could ever show an analogous pattern:
 
 ```text
 underlying event
       ↓
-objective physical state
+independently constrained physical state
       ↓
 human observer channel
       ↓
 perception → memory → interpretation → report
       ↓
-individual / social response
+individual / collective response
 ```
 
-Candidate questions include:
+The important prediction is **not** simply that witnesses make mistakes. Ordinary eyewitness error is expected.
 
-- Do people systematically miss or misidentify features that independent sensors record?
-- Are errors random, or do they repeatedly make an event **less identifiable**?
-- Does the discrepancy change with the information or sensors available to the observer?
-- Do perception, memory, belief, or social effects ever participate in a larger feedback loop?
+The stronger hypothesis is that discrepancies could be:
 
-This does **not** mean witness error is evidence of manipulation. Ordinary perception, memory, expectation, social influence, media effects, fraud, selection effects, and instrument limitations are mandatory competing explanations.
+- reproducibly directional rather than random;
+- disproportionately biased toward reduced identifiability or ambiguity;
+- dependent on what information is available to the observer;
+- adaptive to sensor or observer conditions;
+- better predicted by a modulation model than by conventional cognitive, social, reporting, fraud, or instrumentation models;
+- potentially involved in a larger closed feedback loop.
 
-**The ECM analogy generates tests; it is not evidence.**
+This is divided into two hypotheses:
 
-See [`docs/hypothesis-families/observer_channel_modulation.md`](docs/hypothesis-families/observer_channel_modulation.md).
+### O-M — masking / deceptive modulation
+
+Does the observer channel show reproducible, structured distortion relative to independent evidence, beyond ordinary perception, memory, stress, expectation, suggestion, prior belief, social contamination, fraud, reporting bias, and sensor limitations?
+
+### O-S — steering
+
+Do anomalous manifestations precede and predict directional changes in individual or collective cognition or behavior relative to a separately defined system state?
+
+Steering is much harder to establish and remains downstream of masking. A cultural change following an unusual event is not evidence of steering by itself.
+
+**The ECM analogy generates discriminating tests; it is not evidence that observer manipulation occurs.**
+
+## Cross-level influence, agency, and consciousness — downstream hypotheses
+
+If independent branches eventually establish regulation or coordinated system behavior, REGULUS can ask progressively stronger questions:
+
+- Does a higher organizational level add predictive value for lower-level behavior?
+- Is that added value reducible to ordinary known mediators?
+- Is there evidence of causal cross-level regulation?
+- Does a candidate system learn or adapt?
+- Does it exhibit flexible goal-directed behavior under counterfactual conditions?
+- Does any specific theory of consciousness make a discriminating prediction that can be tested?
+
+These are intentionally downstream.
+
+```text
+regulation ≠ agency
+agency ≠ consciousness
+observer modulation ≠ controller consciousness
+```
+
+---
+
+# How REGULUS approaches the larger goal
+
+The program is designed to approach the strongest hypothesis incrementally rather than argue for it narratively.
+
+A useful evidence ladder is:
+
+```text
+reported anomaly
+      ↓
+reproducible residual phenomenon
+      ↓
+structured non-random organization
+      ↓
+coordination beyond shared causes
+      ↓
+feedback
+      ↓
+regulation of a predefined state
+      ↓
+cross-level predictive / causal influence
+      ↓
+observer-channel involvement
+      ↓
+context-adaptive observer-channel involvement
+      ↓
+agency
+      ↓
+possible consciousness under a specific test
+```
+
+Every arrow is a separate scientific problem.
+
+A result at one level cannot be used as permission to skip the next one. The project may end with evidence for an astronomical association, a network effect, a cognitive effect, or feedback without ever establishing the full Anomalous System of Control hypothesis.
+
+That outcome would still be scientifically useful.
 
 ---
 
@@ -101,186 +222,23 @@ See [`docs/hypothesis-families/observer_channel_modulation.md`](docs/hypothesis-
 
 | Branch | Plain-English question | Current status |
 |---|---|---|
-| **S — Scale Recurrence** | Is Lehto's proposed ~`10^24 m` recurrence real rather than a selection/statistical artifact? | Active / exploratory confirmation redesign |
-| **R — Regulation** | Can we identify genuine feedback that maintains or restores a protected state? | Active / calibration |
-| **N — Network Topology** | Do events show reproducible coordination/network roles beyond geometry and shared causes? | New / research phase |
+| **S — Scale Recurrence** | Is the proposed cross-scale recurrence genuine rather than a selection/statistical artifact? | Active / exploratory confirmation redesign |
+| **R — Regulation** | Can genuine feedback be shown to maintain or restore a protected state? | Active / calibration |
+| **N — Network Topology** | Do events show reproducible coordination or differentiated roles beyond geometry/shared causes? | Research / model-construction |
 | **V — Anomalous Observations** | What observations remain after ordinary explanations and data-quality failures are tested? | Active / contested evidence |
-| **O — Observer-Channel Modulation** | Does perception/memory/reporting show structured modification beyond ordinary cognition? | New / untested |
-| **I — Cross-Level Influence** | Does a higher level add predictive or causal value for lower-level behavior? | Speculative |
-| **C — Cognition / Agency / System Consciousness** | Does the putative higher-level system itself learn, choose, or meet a consciousness test? | Parked / downstream |
+| **O — Observer-Channel Modulation** | Does perception, memory, interpretation, or reporting show structured modification beyond conventional models? | Untested / operationalization |
+| **I — Cross-Level Influence** | Does a higher level add predictive or causal value for lower-level behavior? | Speculative / downstream |
+| **C — Cognition / Agency / System Consciousness** | Does a qualifying higher-order system learn, choose, or satisfy a theory-specific consciousness test? | Parked / downstream |
 
-## Two different consciousness questions
-
-- **O:** Is **human consciousness/perception** being used or modified as part of an information/control channel?
-- **C:** Is the **putative higher-level system itself** conscious or agentic?
-
-Evidence for one does not prove the other.
+Each branch must stand or fail independently before a bridge between branches can be activated.
 
 ---
 
-# Scientific rigor gate
+# Bridges: where the common-control hypothesis becomes testable
 
-Every active branch and bridge is now audited against the same methodological pipeline:
+The overarching REGULUS hypothesis cannot be supported merely because several branches look unusual at the same time.
 
-```text
-scope / claim isolation
-        ↓
-dated evidence boundary
-        ↓
-serious rivals + discriminating predictions
-        ↓
-validated operationalization
-        ↓
-study design + controls + unit of inference
-        ↓
-statistics + precision/power + multiplicity
-        ↓
-data provenance + untouched confirmation boundary
-        ↓
-reproducible code/environment
-        ↓
-independent methods review
-        ↓
-confirmatory execution + independent replication
-```
-
-Gate status is recorded as `PASS`, `PARTIAL`, `FAIL`, `BLOCKED`, or `N/A`. It is deliberately **not converted into a numerical science score**.
-
-A branch is not `CONFIRMATION-READY` until the exact test passes the pre-confirmation gates and the target confirmation data remain untouched.
-
-A preregistration written after target data have already influenced the hypothesis remains valuable as a transparent frozen reanalysis, but it does not transform discovery data into independent confirmation.
-
-See:
-
-- [`SCIENTIFIC_RIGOR_AUDIT.md`](SCIENTIFIC_RIGOR_AUDIT.md)
-- [`docs/methodology/scientific-rigor-gate.md`](docs/methodology/scientific-rigor-gate.md)
-- [`docs/methodology/preregistration-policy.md`](docs/methodology/preregistration-policy.md)
-- [`docs/methodology/evidence-status.md`](docs/methodology/evidence-status.md)
-
----
-
-# Where the four major source programs fit
-
-## Chris Lehto / Cosmic Octaves
-
-Lehto's work motivates **S — Scale Recurrence**.
-
-The current project does not infer UAP, regulation, or consciousness from the scale pattern. The earlier Rank-1 phase analysis in this repo was explicitly marked **INVALIDATED** because of a mathematical defect; corrected analysis must stand independently.
-
-Existing discovery data remain exploratory for the recurrence claim. A confirmatory S result requires a genuinely independent measurement/selection replication or other defensible untouched confirmation boundary.
-
-## Jacques Vallée
-
-Vallée provides theoretical/historical provenance for questions involving:
-
-- control systems;
-- adaptive manifestations;
-- witness/perceptual effects;
-- deception and ambiguity;
-- belief/cultural effects;
-- possible societal influence.
-
-His interpretation generates hypotheses. It is **not evidence that a control system exists**.
-
-## Patrick Jackson / proposed Sphere Network
-
-Jackson's work is treated as a **model generator**.
-
-The initial scientific question is not "are the spheres real?" It is whether his claims can be translated into quantitative predictions about network motifs, differentiated roles, relay behavior, persistence, and response timing that outperform independent-event and shared-cause alternatives on unseen data.
-
-We test topology before claiming literal object identity.
-
-## Beatriz Villarroel / VASCO and POSS-I
-
-VASCO/POSS-I is currently the strongest candidate for the first publication-oriented empirical phase because it has:
-
-- peer-reviewed published claims;
-- a peer-reviewed 2026 methodological critique;
-- a formal response;
-- an independent reanalysis;
-- a 2026 peer-reviewed ML-based validation study;
-- candidate data suitable for reproducibility and holdout questions.
-
-The literature is **contested**, which makes a neutral preregistered adjudication scientifically valuable.
-
-VASCO transients are not assumed to be spheres, UAP, or network nodes.
-
----
-
-# Current scientific dispute: VASCO/POSS-I
-
-The repository deliberately records both sides.
-
-### Supportive/replicative literature
-
-- **Bruehl & Villarroel (2025), Scientific Reports** — DOI `10.1038/s41598-025-21620-3`.
-- **Doherty (2026)** — independent arXiv reanalysis `2604.00056`.
-- **Bruehl et al. (2026), Scientific Reports** — ML-based feature validation, DOI `10.1038/s41598-026-66148-2`.
-
-### Critical literature
-
-- **Watters et al. (2026), Publications of the Astronomical Society of Australia** — DOI `10.1017/pasa.2026.10230`; challenges dataset definitions, feature validity, plate/systematic structure, shadow analysis, clusters, and observation-schedule normalization.
-
-### Response
-
-- **Villarroel et al. (2026)** — arXiv `2602.15171`; argues the critique relies on an aggressively filtered/heterogeneous subset and does not invalidate the principal findings.
-
-**Project position: CONTESTED.**
-
-The goal is not to pick the paper we prefer. The next publication-oriented target is a preregistered adversarial replication/adjudication in which the competing analysis choices are frozen before confirmation.
-
-If a genuinely untouched confirmation boundary cannot be established, the project will label the work as reanalysis rather than manufacture a confirmatory claim.
-
-See [`ADVERSARIAL_EVIDENCE.md`](ADVERSARIAL_EVIDENCE.md).
-
----
-
-# What counts as regulation?
-
-The vocabulary is intentionally strict.
-
-- **Response:** something changes after an input.
-- **Coordination:** multiple events/components behave non-independently after shared causes are controlled.
-- **Feedback:** information about the resulting state affects a later response.
-- **Regulation:** feedback moves an independently defined protected variable toward a viable range.
-- **Agency:** flexible selection among alternatives in pursuit of goals.
-- **Consciousness:** requires its own separately discriminating test.
-
-```text
-response ≠ feedback
-feedback ≠ regulation
-coordination ≠ agency
-regulation ≠ consciousness
-witness discrepancy ≠ consciousness manipulation
-```
-
-A `disturbance → unusual event` association is therefore not enough to establish a control system.
-
----
-
-# Observer-channel hypotheses
-
-## O-M — masking
-
-The phenomenon may produce structured changes in perception, memory, confidence, interpretation, or reporting that make it harder to identify accurately relative to independent evidence channels.
-
-The interesting prediction is not merely "people make mistakes." It is **directional or context-adaptive distortion** that predicts unseen observer errors better than conventional cognition models.
-
-## O-S — steering
-
-A stronger and more distant hypothesis is that manifestations alter individual or collective cognition/behavior in a direction related to a separately defined system state or objective.
-
-A cultural change after a UFO story is not enough. Steering would require predefined direction, timing, competing social/media models, and evidence of a closed feedback loop.
-
-Masking is therefore the nearer-term target; steering remains downstream.
-
----
-
-# Bridges must earn activation
-
-The branches can only be connected through explicit bridge hypotheses.
-
-Current candidates include:
+Connections require explicit **bridge hypotheses**:
 
 - **B-SR:** Scale ↔ Regulation
 - **B-NR:** Network ↔ Regulation
@@ -290,9 +248,52 @@ Current candidates include:
 - **B-RI:** Regulation ↔ Cross-Level Influence
 - **B-IV:** Cross-Level Influence ↔ Anomalous Observations
 
-A bridge is not activated because two ideas fit a narrative.
+A bridge advances only when:
 
-It needs a **novel joint prediction** that neither parent predicts alone, frozen before confirmation data, and tested out-of-sample against explicit alternatives.
+1. both parent branches are independently measurable;
+2. the connection generates a new joint prediction neither parent produces alone;
+3. rival explanations are specified in advance;
+4. analysis is frozen before confirmation data;
+5. the joint prediction succeeds out-of-sample;
+6. a negative result can prevent bridge activation.
+
+This is the point at which the broad "system of control" idea becomes experimentally vulnerable rather than merely interpretive.
+
+---
+
+# Scientific Rigor Gate
+
+Every active branch and bridge is audited against the same methodological pipeline:
+
+```text
+G0  scope / claim isolation
+        ↓
+G1  dated evidence boundary
+        ↓
+G2  serious rivals + discriminating predictions
+        ↓
+G3  validated operationalization
+        ↓
+G4  study design + controls + unit of inference
+        ↓
+G5  statistics + precision/power + multiplicity
+        ↓
+G6  data provenance + untouched confirmation boundary
+        ↓
+G7  reproducible code / environment / checksums
+        ↓
+G8  independent methods review
+        ↓
+G9  confirmatory execution + independent replication
+```
+
+Gate status is recorded as `PASS`, `PARTIAL`, `FAIL`, `BLOCKED`, or `N/A` rather than converted into a numerical science score.
+
+A branch is not `CONFIRMATION-READY` until the exact test passes the required pre-confirmation gates and the target confirmation data remain untouched.
+
+A preregistration written after target data have already influenced the hypothesis remains useful as a frozen reanalysis protocol, but it does not convert discovery data into independent confirmation.
+
+This gate is how REGULUS attempts to move toward its long-term hypothesis without relaxing standards as the claims become more interesting.
 
 ---
 
@@ -303,83 +304,129 @@ It needs a **novel joint prediction** that neither parent predicts alone, frozen
 3. **Bridges require novel joint predictions.**
 4. **Measure first, label later.**
 5. **Models must be falsifiable.**
-6. **Preserve null results and mistakes.**
+6. **Preserve null, contradictory, invalidated, and blocked results.**
 7. **Discovery is not confirmation.**
-8. **Regulation, cognition, agency, consciousness, and observer modulation are different claims.**
-9. **Extraordinary observations earn evidence independently.**
-10. **Analogies generate tests; they do not count as evidence.**
-11. **The strongest credible criticism belongs in the project, not outside it.**
-12. **No confirmatory claim advances without passing the Scientific Rigor Gate for that exact test.**
+8. **Preregistration cannot erase prior exposure to the data.**
+9. **Response, coordination, feedback, regulation, agency, consciousness, and observer modulation are different claims.**
+10. **Extraordinary observations earn evidence independently.**
+11. **Analogies generate tests; they do not count as evidence.**
+12. **The strongest credible criticism belongs inside the project.**
+13. **No confirmatory claim advances without passing the Scientific Rigor Gate for that exact test.**
+
+Canonical distinctions:
+
+```text
+response ≠ feedback
+feedback ≠ regulation
+coordination ≠ agency
+regulation ≠ consciousness
+witness discrepancy ≠ observer manipulation
+observer manipulation ≠ controller consciousness
+```
 
 ---
 
-# Materials / C-002
+# Current scientific priority
 
-The frozen C-002 materials preregistration remains preserved, but it is no longer the critical path after Dr. Kevin Knuth was unable to assist with sample access/testing.
+The strongest immediate path toward conventional scientific legitimacy is **V-A: VASCO/POSS-I**.
 
-The materials branch can continue as:
+The next target is not "prove REGULUS." It is much narrower:
 
-- **M0:** reproduce published/open data;
-- **M1:** calibrate methods on known materials cases;
-- **M2:** research sample provenance and lawful access;
-- **M3:** physically replicate only when a provenance-qualified sample exists.
+> Build a neutral adversarial reanalysis/replication protocol capable of adjudicating the contested POSS-I claims under frozen data definitions, controls, systematics, geometry, multiplicity, and statistical rules.
 
-Failure to obtain a sample is evidence neither for nor against an anomalous-material claim.
+That work should establish whether a genuinely untouched confirmation boundary exists. If it does not, the first manuscript remains a reproducibility/reanalysis study and a later prospective confirmation design must be created separately.
+
+The proposed first manuscript remains intentionally narrow:
+
+> **A Preregistered Adversarial Reanalysis of Pre-Sputnik POSS-I Transients, Atmospheric Nuclear Tests, and Earth-Shadow Geometry**
+
+The result is valuable whether supportive, negative, contradictory, or inconclusive.
 
 ---
 
 # Path toward peer review
 
-The project should **not** attempt to peer-review the grand synthesis first.
+The project should **not** attempt to publish the grand synthesis first.
 
-The preferred sequence is:
+Preferred progression:
 
 ```text
-research program / architecture
+research architecture
         ↓
-source corrections + systematic evidence boundary
+systematic evidence boundaries + source corrections
         ↓
 VASCO adversarial replication design
         ↓
-Scientific Rigor Gate + independent methods review
+Scientific Rigor Gate + independent astronomy/statistics review
         ↓
-Registered Report / immutable preregistration
+Registered Report / immutable preregistration where feasible
         ↓
 reproducible confirmatory analysis
         ↓
 independent replication
         ↓
-Jackson-derived network test
+network-topology test
         ↓
 observer-channel masking test
         ↓
-regulation/control bridge
+regulation / cross-level bridges
         ↓
-scale-regulation bridge
-        ↓
-only then: synthesis
+only after successful parent branches and bridges:
+common-control synthesis
 ```
 
-The first proposed manuscript is intentionally narrow:
+The stronger REGULUS hypothesis is therefore approached by **accumulating discriminating failures and successes**, not by fitting every anomaly into one story.
 
-> **A Preregistered Adversarial Reanalysis of Pre-Sputnik POSS-I Transients, Atmospheric Nuclear Tests, and Earth-Shadow Geometry**
+---
 
-See [`PEER_REVIEW_ROADMAP.md`](PEER_REVIEW_ROADMAP.md).
+# What Project REGULUS does NOT currently claim
+
+This repository does **not** currently establish that:
+
+- an Anomalous System of Control exists;
+- Cosmic Octaves is a real physical recurrence;
+- Patrick Jackson's proposed Sphere Network exists;
+- VASCO transients are spheres, UAP, artificial objects, or network nodes;
+- Jacques Vallée's control-system interpretation is correct;
+- human consciousness or perception is being manipulated;
+- observer effects are deliberate deception;
+- anomalous materials are non-terrestrial;
+- a higher-order regulator exists;
+- a higher-order system is agentic or conscious;
+- the universe is conscious.
+
+Those remain hypotheses that may be supported, weakened, separated, or rejected.
+
+---
+
+# Start here
+
+For an outside scientific reviewer, read these in order:
+
+1. **[`SCIENTIFIC_STATUS.md`](SCIENTIFIC_STATUS.md)** — what is currently supported, contested, speculative, invalidated, and blocked.
+2. **[`SCIENTIFIC_RIGOR_AUDIT.md`](SCIENTIFIC_RIGOR_AUDIT.md)** — branch-by-branch methodological readiness and blockers.
+3. **[`CLAIM_LEDGER.md`](CLAIM_LEDGER.md)** — separates observations, source claims, interpretations, project hypotheses, predictions, and status.
+4. **[`ADVERSARIAL_EVIDENCE.md`](ADVERSARIAL_EVIDENCE.md)** — strongest supportive and critical evidence side by side.
+5. **[`PEER_REVIEW_ROADMAP.md`](PEER_REVIEW_ROADMAP.md)** — path from architecture to narrow peer-reviewed studies.
+6. **[`docs/methodology/scientific-rigor-gate.md`](docs/methodology/scientific-rigor-gate.md)** — mandatory methodological gate.
+7. **[`docs/hypothesis-families/observer_channel_modulation.md`](docs/hypothesis-families/observer_channel_modulation.md)** — full ECM/observer-channel hypothesis.
+8. **[`docs/research-architecture-v3-draft.md`](docs/research-architecture-v3-draft.md)** — current full working architecture.
+9. **[`docs/external-review/README.md`](docs/external-review/README.md)** — source-specific correction questions.
+
+The v3 architecture remains a **Wayfinder draft** until the map clears and a final specification supersedes the v2 constitutional baseline.
 
 ---
 
 # Current Wayfinder frontier
 
-The live v3 map begins at GitHub Issue **#1**.
+Current research tickets include:
 
-Current research tickets:
-
-- **#2** — Jackson claim audit
-- **#3** — VASCO evidence/data/holdout audit
+- **#2** — Jackson claim/provenance audit
+- **#3** — VASCO evidence, data-version, and holdout audit
 - **#4** — sample-free materials audit
 - **#10** — observer-channel masking / steering audit
 
-Downstream decisions:
+Downstream work includes:
 
 - **#6** — Network N0→N3 evidence gates
 - **#7** — Network ↔ VASCO joint prediction
@@ -387,24 +434,7 @@ Downstream decisions:
 - **#9** — discovery/confirmation holdout policy
 - **#11** — Observer Modulation O0→O3 evidence gates
 
-For publication priority, **#3 is now the main empirical focus**.
-
----
-
-# What this repo does NOT currently claim
-
-- the universe is conscious;
-- Cosmic Octaves is established;
-- Patrick Jackson's Sphere Network exists;
-- VASCO transients are spheres, UAP, or artificial objects;
-- Jacques Vallée's control-system interpretation is correct;
-- witness discrepancies prove consciousness manipulation;
-- anomalous materials are extraterrestrial;
-- a higher-level controller has been demonstrated.
-
-The architecture is designed so that each idea can fail without requiring all the others to fail.
-
-That is the point.
+For publication priority, **#3 remains the main empirical focus**.
 
 ---
 
@@ -417,31 +447,33 @@ define competing models and nulls
         ↓
 validate operational measurements
         ↓
-freeze discovery vs confirmation data
+freeze discovery vs confirmation boundaries
         ↓
 freeze statistics / precision / multiplicity rules
         ↓
 independent methods review
         ↓
-preregister a discriminating prediction
+preregister discriminating predictions
         ↓
-test on untouched data
+test on untouched data when possible
         ↓
-preserve positive, negative, contradictory AND inconclusive results
+preserve positive, negative, contradictory, and inconclusive results
         ↓
 seek independent replication
         ↓
-only then consider bridge promotion
+only then activate bridge hypotheses
 ```
 
-The best experiment is not the one most likely to produce an exciting result.
+The best experiment is not the one most likely to make Project REGULUS look correct.
 
-It is the one most capable of telling us that an idea is wrong.
+It is the one most capable of showing **where REGULUS is wrong**.
 
 ---
 
 ## License & provenance
 
+- **Project title:** Anomalous System of Control: Project REGULUS
+- **REGULUS:** Regulation · Emergence · Governance · Uncertainty · Levels · Unified · Systems
 - **License:** MIT
 - **Repository owner:** `aguacatero`
 - **v2 constitutional architecture:** `docs/research-architecture-v2.md`
