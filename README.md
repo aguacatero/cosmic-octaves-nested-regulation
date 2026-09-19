@@ -15,11 +15,13 @@ The goal is to turn unusual ideas into tests that can fail.
 For an outside scientific reviewer, read these in order:
 
 1. **[`SCIENTIFIC_STATUS.md`](SCIENTIFIC_STATUS.md)** — one-page statement of what is supported, contested, speculative, invalidated, and blocked.
-2. **[`CLAIM_LEDGER.md`](CLAIM_LEDGER.md)** — separates observations, source claims, interpretations, our hypotheses, predictions, and evidentiary status.
-3. **[`ADVERSARIAL_EVIDENCE.md`](ADVERSARIAL_EVIDENCE.md)** — strongest supportive and critical evidence side by side.
-4. **[`PEER_REVIEW_ROADMAP.md`](PEER_REVIEW_ROADMAP.md)** — path from this research architecture to narrow peer-reviewed studies.
-5. **[`docs/research-architecture-v3-draft.md`](docs/research-architecture-v3-draft.md)** — full working architecture.
-6. **[`docs/external-review/README.md`](docs/external-review/README.md)** — source-specific correction questions for Lehto, Vallée, Jackson, and Villarroel.
+2. **[`SCIENTIFIC_RIGOR_AUDIT.md`](SCIENTIFIC_RIGOR_AUDIT.md)** — branch-by-branch methodological readiness and the exact gaps preventing confirmatory claims.
+3. **[`CLAIM_LEDGER.md`](CLAIM_LEDGER.md)** — separates observations, source claims, interpretations, our hypotheses, predictions, and evidentiary status.
+4. **[`ADVERSARIAL_EVIDENCE.md`](ADVERSARIAL_EVIDENCE.md)** — strongest supportive and critical evidence side by side.
+5. **[`PEER_REVIEW_ROADMAP.md`](PEER_REVIEW_ROADMAP.md)** — path from this research architecture to narrow peer-reviewed studies.
+6. **[`docs/methodology/scientific-rigor-gate.md`](docs/methodology/scientific-rigor-gate.md)** — mandatory gates for evidence search, rivals, measurement, design, statistics, data provenance, reproducibility, methods review, and confirmation.
+7. **[`docs/research-architecture-v3-draft.md`](docs/research-architecture-v3-draft.md)** — full working architecture.
+8. **[`docs/external-review/README.md`](docs/external-review/README.md)** — source-specific correction questions for Lehto, Vallée, Jackson, and Villarroel.
 
 The v3 architecture is still a **Wayfinder draft** and does not supersede the v2 constitutional baseline until the map clears and a final specification is approved.
 
@@ -99,7 +101,7 @@ See [`docs/hypothesis-families/observer_channel_modulation.md`](docs/hypothesis-
 
 | Branch | Plain-English question | Current status |
 |---|---|---|
-| **S — Scale Recurrence** | Is Lehto's proposed ~`10^24 m` recurrence real rather than a selection/statistical artifact? | Active / corrected reanalysis |
+| **S — Scale Recurrence** | Is Lehto's proposed ~`10^24 m` recurrence real rather than a selection/statistical artifact? | Active / exploratory confirmation redesign |
 | **R — Regulation** | Can we identify genuine feedback that maintains or restores a protected state? | Active / calibration |
 | **N — Network Topology** | Do events show reproducible coordination/network roles beyond geometry and shared causes? | New / research phase |
 | **V — Anomalous Observations** | What observations remain after ordinary explanations and data-quality failures are tested? | Active / contested evidence |
@@ -116,6 +118,47 @@ Evidence for one does not prove the other.
 
 ---
 
+# Scientific rigor gate
+
+Every active branch and bridge is now audited against the same methodological pipeline:
+
+```text
+scope / claim isolation
+        ↓
+dated evidence boundary
+        ↓
+serious rivals + discriminating predictions
+        ↓
+validated operationalization
+        ↓
+study design + controls + unit of inference
+        ↓
+statistics + precision/power + multiplicity
+        ↓
+data provenance + untouched confirmation boundary
+        ↓
+reproducible code/environment
+        ↓
+independent methods review
+        ↓
+confirmatory execution + independent replication
+```
+
+Gate status is recorded as `PASS`, `PARTIAL`, `FAIL`, `BLOCKED`, or `N/A`. It is deliberately **not converted into a numerical science score**.
+
+A branch is not `CONFIRMATION-READY` until the exact test passes the pre-confirmation gates and the target confirmation data remain untouched.
+
+A preregistration written after target data have already influenced the hypothesis remains valuable as a transparent frozen reanalysis, but it does not transform discovery data into independent confirmation.
+
+See:
+
+- [`SCIENTIFIC_RIGOR_AUDIT.md`](SCIENTIFIC_RIGOR_AUDIT.md)
+- [`docs/methodology/scientific-rigor-gate.md`](docs/methodology/scientific-rigor-gate.md)
+- [`docs/methodology/preregistration-policy.md`](docs/methodology/preregistration-policy.md)
+- [`docs/methodology/evidence-status.md`](docs/methodology/evidence-status.md)
+
+---
+
 # Where the four major source programs fit
 
 ## Chris Lehto / Cosmic Octaves
@@ -123,6 +166,8 @@ Evidence for one does not prove the other.
 Lehto's work motivates **S — Scale Recurrence**.
 
 The current project does not infer UAP, regulation, or consciousness from the scale pattern. The earlier Rank-1 phase analysis in this repo was explicitly marked **INVALIDATED** because of a mathematical defect; corrected analysis must stand independently.
+
+Existing discovery data remain exploratory for the recurrence claim. A confirmatory S result requires a genuinely independent measurement/selection replication or other defensible untouched confirmation boundary.
 
 ## Jacques Vallée
 
@@ -182,7 +227,9 @@ The repository deliberately records both sides.
 
 **Project position: CONTESTED.**
 
-The goal is not to pick the paper we prefer. The next publication-oriented target is a preregistered adversarial replication in which the competing analysis choices are frozen before confirmation.
+The goal is not to pick the paper we prefer. The next publication-oriented target is a preregistered adversarial replication/adjudication in which the competing analysis choices are frozen before confirmation.
+
+If a genuinely untouched confirmation boundary cannot be established, the project will label the work as reanalysis rather than manufacture a confirmatory claim.
 
 See [`ADVERSARIAL_EVIDENCE.md`](ADVERSARIAL_EVIDENCE.md).
 
@@ -262,6 +309,7 @@ It needs a **novel joint prediction** that neither parent predicts alone, frozen
 9. **Extraordinary observations earn evidence independently.**
 10. **Analogies generate tests; they do not count as evidence.**
 11. **The strongest credible criticism belongs in the project, not outside it.**
+12. **No confirmatory claim advances without passing the Scientific Rigor Gate for that exact test.**
 
 ---
 
@@ -289,13 +337,17 @@ The preferred sequence is:
 ```text
 research program / architecture
         ↓
-source corrections
+source corrections + systematic evidence boundary
         ↓
-VASCO adversarial replication
+VASCO adversarial replication design
+        ↓
+Scientific Rigor Gate + independent methods review
         ↓
 Registered Report / immutable preregistration
         ↓
 reproducible confirmatory analysis
+        ↓
+independent replication
         ↓
 Jackson-derived network test
         ↓
@@ -363,13 +415,21 @@ reproduce / audit existing evidence
         ↓
 define competing models and nulls
         ↓
+validate operational measurements
+        ↓
 freeze discovery vs confirmation data
+        ↓
+freeze statistics / precision / multiplicity rules
+        ↓
+independent methods review
         ↓
 preregister a discriminating prediction
         ↓
 test on untouched data
         ↓
-preserve positive AND negative results
+preserve positive, negative, contradictory AND inconclusive results
+        ↓
+seek independent replication
         ↓
 only then consider bridge promotion
 ```
@@ -387,6 +447,11 @@ It is the one most capable of telling us that an idea is wrong.
 - **v2 constitutional architecture:** `docs/research-architecture-v2.md`
 - **v3 Wayfinder draft:** `docs/research-architecture-v3-draft.md`
 - **Scientific status:** `SCIENTIFIC_STATUS.md`
+- **Scientific rigor audit:** `SCIENTIFIC_RIGOR_AUDIT.md`
+- **Scientific rigor gate:** `docs/methodology/scientific-rigor-gate.md`
+- **Hypothesis audit template:** `docs/methodology/hypothesis-audit-template.md`
+- **Preregistration policy:** `docs/methodology/preregistration-policy.md`
+- **Evidence status vocabulary:** `docs/methodology/evidence-status.md`
 - **Claim ledger:** `CLAIM_LEDGER.md`
 - **Adversarial evidence:** `ADVERSARIAL_EVIDENCE.md`
 - **Peer-review roadmap:** `PEER_REVIEW_ROADMAP.md`
