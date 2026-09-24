@@ -1,0 +1,2 @@
+import assert from 'node:assert/strict'; import { test } from 'node:test'; import { evaluateWithJev } from '../src/evaluator.js'; import { validPacket } from './fixtures/packet.js'; import { loadRubric } from '../src/rubrics.js';
+test('Jev outage returns model-error and cannot promote',async()=>{const client={decide:async()=>{throw new Error('offline')}} as any; const r=await evaluateWithJev(validPacket,[loadRubric('G6')],client,{code_commit_sha:'abc'}); assert.equal(r.status,'MODEL_ERROR'); assert.equal(r.promotion_eligible,false); assert.equal(r.criteria.length,0);});
