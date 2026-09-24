@@ -1,0 +1,4 @@
+import { readFileSync } from 'node:fs'; import { resolve } from 'node:path'; import type { Rubric } from './types.js';
+const REQUIRED = new Set(['G0','G1','G2','G3','G4','G5','G6','G7','G8','G9','bridge','observer-channel']);
+export function loadRubric(id:string, version='v1'):Rubric { if(!REQUIRED.has(id)) throw new Error(`Unknown rubric: ${id}`); const path=resolve(process.cwd(),'../../rigor/rubrics',version,`${id}.json`); const r=JSON.parse(readFileSync(path,'utf8')) as Rubric; if(r.rubric_version!==version||r.rubric_id!==id) throw new Error(`Rubric identity mismatch: ${id}`); const ids=r.questions.map(q=>q.id); if(new Set(ids).size!==ids.length) throw new Error(`Duplicate criterion in ${id}`); return r; }
+export function loadRubrics(ids:string[],version='v1'):Rubric[]{ const rs=ids.map(id=>loadRubric(id,version)); if(new Set(rs.map(r=>r.rubric_version)).size!==1) throw new Error('Mixed rubric versions'); return rs; }
