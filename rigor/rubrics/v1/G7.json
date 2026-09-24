@@ -1,0 +1,11 @@
+{
+  "rubric_version":"v1","rubric_id":"G7","title":"G7","questions":[
+    {"id":"environment_locked","type":"noul","instructions":"Environment locked?","criteria":{"true":"The evidence packet explicitly and adequately satisfies this criterion.","false":"The criterion is absent, ambiguous, contradicted, or inadequate."},"consequential":false},
+    {"id":"software_versions_recorded","type":"noul","instructions":"Software versions recorded?","criteria":{"true":"The evidence packet explicitly and adequately satisfies this criterion.","false":"The criterion is absent, ambiguous, contradicted, or inadequate."},"consequential":false},
+    {"id":"random_seeds_recorded","type":"noul","instructions":"Random seeds recorded?","criteria":{"true":"The evidence packet explicitly and adequately satisfies this criterion.","false":"The criterion is absent, ambiguous, contradicted, or inadequate."},"consequential":false},
+    {"id":"tests_exist","type":"noul","instructions":"Tests exist?","criteria":{"true":"The evidence packet explicitly and adequately satisfies this criterion.","false":"The criterion is absent, ambiguous, contradicted, or inadequate."},"consequential":false},
+    {"id":"data_dictionary_exists","type":"noul","instructions":"Data dictionary exists?","criteria":{"true":"The evidence packet explicitly and adequately satisfies this criterion.","false":"The criterion is absent, ambiguous, contradicted, or inadequate."},"consequential":false},
+    {"id":"reproducibility_instructions_exist","type":"noul","instructions":"Reproducibility instructions exist?","criteria":{"true":"The evidence packet explicitly and adequately satisfies this criterion.","false":"The criterion is absent, ambiguous, contradicted, or inadequate."},"consequential":false},
+    {"id":"single_command_or_equivalent_pipeline_exists","type":"noul","instructions":"Single command or equivalent pipeline exists?","criteria":{"true":"The evidence packet explicitly and adequately satisfies this criterion.","false":"The criterion is absent, ambiguous, contradicted, or inadequate."},"consequential":false}
+  ]
+}
