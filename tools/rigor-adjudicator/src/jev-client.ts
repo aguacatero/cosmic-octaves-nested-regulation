@@ -1,6 +1,47 @@
 import type { EvidencePacket, Rubric } from './types.js';
-export const JEV_MODEL='typesafe/jev-1.13' as const;
-export interface DecisionTransport { (request:any):Promise<any>; }
-export interface JevClient { decide(request:any):Promise<any>; }
-export function buildDecisionRequest(packet:EvidencePacket,rubrics:Rubric[]):any { const questions:Record<string,unknown>={}; for(const rubric of rubrics) for(const q of rubric.questions) questions[q.id]={type:q.type,instructions:q.instructions}; return {decisionsRequest:{model:JEV_MODEL,state:{description:'Project REGULUS methodological evidence packet',records:[{id:packet.packet_id,record:packet}]},questions}}; }
-export function createJevClient(options:{transport?:DecisionTransport;apiKey?:string}={}):JevClient { if(options.transport) return {decide:options.transport}; return {decide:async(request:any)=>{ const apiKey=options.apiKey??process.env.OPENROUTER_API_KEY; if(!apiKey) throw new Error('OPENROUTER_API_KEY is required for Jev evaluation'); const moduleName='@openrouter/sdk'; const mod:any=await import(moduleName); const OpenRouter=mod.OpenRouter??mod.default?.OpenRouter??mod.default; const openrouter=new OpenRouter({apiKey}); return openrouter.alpha.decisions.create(request); }}; }
+
+export const JEV_MODEL = 'typesafe/jev-1.13' as const;
+
+export interface DecisionTransport { (request: any): Promise<any>; }
+export interface JevClient { decide(request: any): Promise<any>; }
+
+export function buildDecisionRequest(packet: EvidencePacket, rubrics: Rubric[]): any {
+  const questions: Record<string, unknown> = {};
+  for (const rubric of rubrics) {
+    for (const q of rubric.questions) {
+      questions[q.id] = {
+        type: q.type,
+        instructions: q.instructions,
+        ...(Object.keys(q.criteria).length ? { criteria: q.criteria } : {}),
+      };
+    }
+  }
+
+  return {
+    decisionsRequest: {
+      model: JEV_MODEL,
+      state: {
+        description: 'Project REGULUS methodological evidence packet',
+        records: [{ id: packet.packet_id, record: packet }],
+      },
+      questions,
+    },
+  };
+}
+
+export function createJevClient(options: { transport?: DecisionTransport; apiKey?: string } = {}): JevClient {
+  if (options.transport) return { decide: options.transport };
+
+  return {
+    decide: async (request: any) => {
+      const apiKey = options.apiKey ?? process.env.OPENROUTER_API_KEY;
+      if (!apiKey) throw new Error('OPENROUTER_API_KEY is required for Jev evaluation');
+
+      const moduleName = '@openrouter/sdk';
+      const mod: any = await import(moduleName);
+      const OpenRouter = mod.OpenRouter ?? mod.default?.OpenRouter ?? mod.default;
+      const openrouter = new OpenRouter({ apiKey });
+      return openrouter.alpha.decisions.create(request);
+    },
+  };
+}
