@@ -1,0 +1,127 @@
+{
+  "rubric_version": "v1",
+  "rubric_id": "G5",
+  "title": "G5",
+  "questions": [
+    {
+      "id": "primary_estimand_defined",
+      "type": "noul",
+      "instructions": "Primary estimand defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "primary_model_defined",
+      "type": "noul",
+      "instructions": "Primary model defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "effect_measure_defined",
+      "type": "noul",
+      "instructions": "Effect measure defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "uncertainty_interval_defined",
+      "type": "noul",
+      "instructions": "Uncertainty interval defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "sesoi_or_precision_target_defined",
+      "type": "noul",
+      "instructions": "Sesoi or precision target defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "sample_information_rationale_present",
+      "type": "noul",
+      "instructions": "Sample information rationale present?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "power_or_simulation_present_where_relevant",
+      "type": "noul",
+      "instructions": "Power or simulation present where relevant?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "multiplicity_plan_defined",
+      "type": "noul",
+      "instructions": "Multiplicity plan defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "missing_data_plan_defined",
+      "type": "noul",
+      "instructions": "Missing data plan defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "sensitivity_plan_defined",
+      "type": "noul",
+      "instructions": "Sensitivity plan defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "p_ge_alpha_not_used_as_null_evidence",
+      "type": "noul",
+      "instructions": "P ge alpha not used as null evidence?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": true
+    },
+    {
+      "id": "affirmative_null_has_valid_criterion",
+      "type": "noul",
+      "instructions": "Affirmative null has valid criterion?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": true
+    }
+  ]
+}

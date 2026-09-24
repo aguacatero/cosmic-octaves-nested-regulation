@@ -1,0 +1,97 @@
+{
+  "rubric_version": "v1",
+  "rubric_id": "G6",
+  "title": "Data provenance, discovery, confirmation, preregistration",
+  "questions": [
+    {
+      "id": "canonical_dataset_identified",
+      "type": "noul",
+      "instructions": "Canonical dataset identified?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "dataset_checksum_present",
+      "type": "noul",
+      "instructions": "Dataset checksum present?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "derivation_process_reproducible",
+      "type": "noul",
+      "instructions": "Derivation process reproducible?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "discovery_data_identified",
+      "type": "noul",
+      "instructions": "Discovery data identified?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "confirmation_data_identified",
+      "type": "noul",
+      "instructions": "Confirmation data identified?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": true
+    },
+    {
+      "id": "prior_exposure_disclosed",
+      "type": "noul",
+      "instructions": "Prior exposure disclosed?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": true
+    },
+    {
+      "id": "leakage_assessed",
+      "type": "noul",
+      "instructions": "Leakage assessed?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "preregistration_precedes_confirmation_exposure",
+      "type": "noul",
+      "instructions": "Preregistration precedes confirmation exposure?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": true
+    },
+    {
+      "id": "reanalysis_not_mislabeled_confirmation",
+      "type": "noul",
+      "instructions": "Reanalysis not mislabeled confirmation?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": true
+    }
+  ]
+}

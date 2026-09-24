@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "V-A-POSS-I-001",
+  "rules": {
+    "HR-01": {
+      "rule_id": "HR-01",
+      "status": "PASS",
+      "authoritative": true,
+      "rationale": "Previously inspected target data cannot be untouched confirmation.",
+      "affected_gate_ids": [
+        "G6"
+      ]
+    },
+    "HR-02": {
+      "rule_id": "HR-02",
+      "status": "PASS",
+      "authoritative": true,
+      "rationale": "Preregistration after target exposure cannot create confirmation.",
+      "affected_gate_ids": [
+        "G6"
+      ]
+    },
+    "HR-03": {
+      "rule_id": "HR-03",
+      "status": "PASS",
+      "authoritative": true,
+      "rationale": "p >= alpha alone cannot establish a null or rival.",
+      "affected_gate_ids": [
+        "G5"
+      ]
+    },
+    "HR-04": {
+      "rule_id": "HR-04",
+      "status": "PASS",
+      "authoritative": true,
+      "rationale": "Same-data rerun is reproducibility, not independent replication.",
+      "affected_gate_ids": [
+        "G9"
+      ]
+    },
+    "HR-05": {
+      "rule_id": "HR-05",
+      "status": "PASS",
+      "authoritative": true,
+      "rationale": "A bridge cannot inherit evidentiary status from its parents.",
+      "affected_gate_ids": [
+        "G0",
+        "G9"
+      ]
+    },
+    "HR-06": {
+      "rule_id": "HR-06",
+      "status": "PASS",
+      "authoritative": true,
+      "rationale": "Consciousness/agency cannot be promoted directly from lower-rung observations.",
+      "affected_gate_ids": [
+        "G0",
+        "G9"
+      ]
+    },
+    "HR-07": {
+      "rule_id": "HR-07",
+      "status": "FAIL",
+      "authoritative": true,
+      "rationale": "Missing provenance blocks confirmatory promotion.",
+      "affected_gate_ids": [
+        "G6"
+      ]
+    },
+    "HR-08": {
+      "rule_id": "HR-08",
+      "status": "PASS",
+      "authoritative": true,
+      "rationale": "Model probability can never override a deterministic hard rule.",
+      "affected_gate_ids": [
+        "G0",
+        "G5",
+        "G6",
+        "G9"
+      ]
+    }
+  },
+  "promotion_blocked": true
+}
