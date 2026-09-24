@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "V-A-POSS-I-001",
+  "gate_status": "FAIL",
+  "promotion_eligible": false,
+  "requires_human_review": true,
+  "disagreements": [],
+  "rationale": [
+    "HR-07: Missing provenance blocks confirmatory promotion."
+  ],
+  "prior_project_status": "EXPLORATORY / PRE-CONFIRMATION"
+}

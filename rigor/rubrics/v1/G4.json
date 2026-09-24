@@ -1,0 +1,87 @@
+{
+  "rubric_version": "v1",
+  "rubric_id": "G4",
+  "title": "G4",
+  "questions": [
+    {
+      "id": "sampling_process_defined",
+      "type": "noul",
+      "instructions": "Sampling process defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "experimental_or_observational_unit_defined",
+      "type": "noul",
+      "instructions": "Experimental or observational unit defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "controls_present",
+      "type": "noul",
+      "instructions": "Controls present?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "masking_addressed",
+      "type": "noul",
+      "instructions": "Masking addressed?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "randomization_or_reason_na_present",
+      "type": "noul",
+      "instructions": "Randomization or reason na present?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "batch_plate_site_observer_effects_addressed",
+      "type": "noul",
+      "instructions": "Batch plate site observer effects addressed?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "pseudoreplication_avoided",
+      "type": "noul",
+      "instructions": "Pseudoreplication avoided?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "causal_claim_matches_design",
+      "type": "noul",
+      "instructions": "Causal claim matches design?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version":"1.0","packet_id":"V-A-POSS-I-001","packet_version":1,"branch_id":"V-A","hypothesis_id":"V-002",
+  "claim":"Reported POSS-I transient associations can be neutrally adjudicated under frozen data definitions, observation opportunity, systematics, geometry, multiplicity, and artifact-validity rules.",
+  "claim_type":"associational","non_claims":["Does not establish UAP, artificial origin, a sphere network, regulation, agency, or consciousness."],"evidence_boundary_date":"2026-09-24",
+  "sources":[
+    {"source_id":"BV2025","type":"peer_reviewed","citation":"Bruehl & Villarroel 2025, Scientific Reports, DOI 10.1038/s41598-025-21620-3","claim_relevance":"Supportive nuclear-window association","limitations":["Interpretation contested"]},
+    {"source_id":"W2026","type":"peer_reviewed","citation":"Watters et al. 2026, PASA, DOI 10.1017/pasa.2026.10230","claim_relevance":"Critical dataset/systematics/observation-schedule analysis","limitations":[]},
+    {"source_id":"VR2026","type":"preprint","citation":"Villarroel et al. 2026 response, arXiv:2602.15171","claim_relevance":"Response to critical analysis","limitations":["Preprint"]},
+    {"source_id":"D2026","type":"preprint","citation":"Doherty 2026, arXiv:2604.00056","claim_relevance":"Independent statistical reanalysis","limitations":["Preprint","Does not settle feature-validity dispute"]},
+    {"source_id":"BML2026","type":"peer_reviewed","citation":"Bruehl et al. 2026, Scientific Reports, DOI 10.1038/s41598-026-66148-2","claim_relevance":"ML artifact-probability analysis","limitations":["Does not settle all Watters critiques"]}
+  ],
+  "data":{"dataset":"POSS-I transient candidate material referenced in current VASCO literature","version":null,"checksum":null,"discovery_status":"inspected","confirmation_status":"unknown","prior_exposure":"Existing published and repository analyses mean the original inspected material cannot automatically be treated as untouched confirmation.","preregistration_timestamp":null,"target_exposure_timestamp":null},
+  "design":{"unit_of_inference":"UNRESOLVED — Issue #3","observation_opportunity_normalization":"REQUIRED","plate_systematics":"REQUIRED","earth_shadow_geometry":"TO BE FROZEN","nuclear_window":"TO BE FROZEN"},
+  "statistics":{"primary_estimand":"UNRESOLVED","multiplicity_plan":"UNRESOLVED","affirmative_null_claim":false},
+  "rivals":[{"id":"artifact","description":"Plate/scan/catalog artifacts"},{"id":"schedule","description":"Observation scheduling/opportunity"},{"id":"systematics","description":"Plate/spatial systematics"}],
+  "controls":[{"type":"negative","status":"TO BE DEFINED"}],
+  "known_disagreements":["Dataset definitions","Feature validity","Observation-day normalization","Earth-shadow result","Nuclear-window interpretation"],"attachments":[]
+}

@@ -1,0 +1,87 @@
+{
+  "rubric_version": "v1",
+  "rubric_id": "G3",
+  "title": "G3",
+  "questions": [
+    {
+      "id": "construct_operationally_defined",
+      "type": "noul",
+      "instructions": "Construct operationally defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "measurement_unit_defined",
+      "type": "noul",
+      "instructions": "Measurement unit defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "instrument_or_extraction_defined",
+      "type": "noul",
+      "instructions": "Instrument or extraction defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "quality_control_defined",
+      "type": "noul",
+      "instructions": "Quality control defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "reliability_or_error_characterized",
+      "type": "noul",
+      "instructions": "Reliability or error characterized?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "missingness_defined",
+      "type": "noul",
+      "instructions": "Missingness defined?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "transformations_justified",
+      "type": "noul",
+      "instructions": "Transformations justified?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    },
+    {
+      "id": "proxy_vs_direct_measurement_explicit",
+      "type": "noul",
+      "instructions": "Proxy vs direct measurement explicit?",
+      "criteria": {
+        "true": "The evidence packet explicitly and adequately satisfies this criterion.",
+        "false": "The criterion is absent, ambiguous, contradicted, or inadequate."
+      },
+      "consequential": false
+    }
+  ]
+}
