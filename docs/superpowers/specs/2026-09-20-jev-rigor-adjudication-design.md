@@ -1,9 +1,11 @@
 # Project REGULUS — Jev Rigor Adjudication Design
 
 **Date:** 2026-09-20  
-**Status:** Design specification — implementation not yet started  
+**Status:** Approved design; Plan 1 advisory implementation completed 2026-09-24; Plan 2 calibrated-authority work remains pending  
 **Project:** Anomalous System of Control: Project REGULUS  
 **Purpose:** Add a reproducible, calibrated methodological-adjudication layer beneath the existing Scientific Rigor Gate without allowing model confidence to substitute for scientific evidence.
+
+> **Implementation note (2026-09-24):** The core adjudicator, G0–G9/bridge/observer rubrics, deterministic hard rules, strict schemas, pinned Jev 1.13 client, artifact verification, advisory calibration plumbing, CI, and exploratory VASCO packet are implemented under `tools/rigor-adjudicator/`, `rigor/`, and `analysis/exploratory/V-A-POSS-I/rigor/`. The implementation is intentionally locked to `ADVISORY_ONLY`; the human-reviewed 150–300 case calibration set, adversarial LLM channel, empirical escalation thresholds, and governed authority approval described in Plan 2 are not yet implemented.
 
 ---
 
@@ -153,27 +155,35 @@ tools/
       deterministic-rules.ts
       schemas.ts
       calibration.ts
-      scoring.ts
-      disagreement.ts
+      adjudication.ts
+      verify.ts
+      io.ts
+      rubrics.ts
+      types.ts
     tests/
       deterministic-rules.test.ts
       schemas.test.ts
       calibration.test.ts
+      evaluator.test.ts
+      adjudication.test.ts
+      verify.test.ts
+      governance.test.ts
+      sdk-shape.test.ts
       fixtures/
 
 rigor/
   rubrics/
     v1/
-      G0-scope.json
-      G1-evidence-boundary.json
-      G2-rivals.json
-      G3-operationalization.json
-      G4-design.json
-      G5-statistics.json
-      G6-provenance.json
-      G7-reproducibility.json
-      G8-independent-review.json
-      G9-confirmation.json
+      G0.json
+      G1.json
+      G2.json
+      G3.json
+      G4.json
+      G5.json
+      G6.json
+      G7.json
+      G8.json
+      G9.json
       bridge.json
       observer-channel.json
   gold/
@@ -183,24 +193,24 @@ rigor/
       README.md
   schemas/
     evidence-packet.schema.json
-    evaluation.schema.json
+    jev-evaluation.schema.json
+    deterministic-evaluation.schema.json
     adjudication.schema.json
     calibration-report.schema.json
   evaluations/
     README.md
 
 analysis/
-  confirmatory/
-    <branch>/<study>/
-      evidence-packet.json
-      jev-evaluation.json
-      deterministic-evaluation.json
-      llm-review.json
-      adjudication.json
-      calibration-context.json
+  exploratory/
+    V-A-POSS-I/
+      rigor/
+        evidence-packet.json
+        deterministic-evaluation.json
+        adjudication.json
+        README.md
 ```
 
-Generated evaluation artifacts for exploratory work may live outside `analysis/confirmatory`, but anything used in publication or confirmation must use the canonical structure above.
+The exploratory VASCO packet intentionally has no live `jev-evaluation.json` until an authorized OpenRouter key is used. Anything used in publication or confirmation must use a frozen, versioned evidence packet and the canonical artifact structure.
 
 ---
 
@@ -573,33 +583,30 @@ Contains the gold-set metrics, confidence bands, known weaknesses, model version
 
 ## 12. CLI behavior
 
-Proposed commands:
+Implemented Plan 1 commands:
 
 ```bash
 npm run rigor -- evaluate <evidence-packet.json> --rubric G6
 npm run rigor -- evaluate <evidence-packet.json> --all
-npm run rigor -- calibrate rigor/gold/v1
+npm run rigor -- calibrate rigor/gold/v1 --evaluations <results.jsonl>
 npm run rigor -- adjudicate <evaluation-directory>
 npm run rigor -- verify <evaluation-directory>
 ```
 
-`verify` must work without an API call and check:
+`verify` works without an API call and checks:
 
-- JSON schema validity;
-- evidence packet hash;
-- expected artifact set;
-- deterministic-rule evaluation;
+- evidence packet presence/hash;
+- expected deterministic artifact;
 - model ID;
 - rubric version;
-- commit SHA;
-- unresolved disagreements;
-- confirmation-blocking conditions.
+- hard-rule promotion blocks;
+- unresolved consequential disagreements.
 
 ---
 
 ## 13. Failure behavior
 
-The subsystem must fail closed for scientific promotion.
+The subsystem fails closed for scientific promotion.
 
 If Jev is unavailable, malformed, or changes output shape:
 
@@ -622,33 +629,26 @@ If the model is upgraded:
 - Never store `OPENROUTER_API_KEY` in the repository.
 - Evidence packets must not contain private witness PII unless a separate approved data-handling protocol exists.
 - Publication artifacts should prefer IDs/pseudonyms and public-source references.
-- Raw API payload logging must be reviewed for accidental secret or PII inclusion.
+- Provider metadata is allow-listed to avoid persisting authorization headers or secrets.
 
 ---
 
 ## 15. First pilot: VASCO / POSS-I
 
-VASCO V-A should be the first real pilot after calibration scaffolding exists.
+VASCO V-A is the first exploratory tooling pilot.
 
-The pilot should not ask Jev whether the VASCO interpretation is correct.
+The pilot does not ask Jev whether the VASCO interpretation is correct.
 
-It should adjudicate methodological questions such as:
+Its current packet explicitly preserves unresolved questions including:
 
-- Is the canonical data version explicit?
-- Are competing sample definitions represented?
-- Are feature-validity disputes represented?
-- Is observing opportunity normalized?
-- Are plate/systematic alternatives represented?
-- Is Earth-shadow geometry operationally frozen?
-- Is the nuclear-test window frozen?
-- Is multiplicity addressed?
-- Is the primary estimand frozen?
-- Is the data genuinely untouched for confirmation?
-- If not, is the study correctly labeled reanalysis/reproducibility?
+- canonical data version;
+- checksum;
+- unit of inference;
+- primary estimand;
+- multiplicity policy;
+- untouched confirmation availability.
 
-The first success criterion for the subsystem is therefore:
-
-> Produce a reproducible methodological adjudication of the VASCO replication specification that can be independently inspected and that does not change the scientific result merely because a different LLM reviews the prose.
+Because those items remain unresolved, the pilot is promotion-blocked rather than filled with invented values. A live Jev evaluation has not yet been archived because this implementation session did not use the user's OpenRouter secret.
 
 ---
 
@@ -668,31 +668,33 @@ It cannot directly increase confidence that an anomalous control system exists.
 
 Confidence in that hypothesis must still come from successful measurements, discriminating predictions, untouched confirmation, effect sizes and uncertainty, failed rival models, independent methods review, and independent replication.
 
-The expected benefit is indirect but important:
-
-> If REGULUS eventually produces positive results, a calibrated adjudication layer makes it harder for those results to be artifacts of flexible methodological interpretation.
-
 ---
 
-## 17. Acceptance criteria for implementation
+## 17. Acceptance criteria status
 
-Implementation is complete only when all of the following are demonstrated:
+Plan 1 now demonstrates:
 
-1. `typesafe/jev-1.13` is pinned.
-2. The Decisions API is used through an isolated client module.
-3. Evidence packets and outputs validate against committed JSON schemas.
-4. G0–G9 rubrics are versioned data files, not hidden prompt text.
-5. Deterministic hard rules are implemented and tested.
-6. Jev cannot override a hard-rule failure.
-7. Gold-set calibration can run end-to-end.
-8. Calibration outputs false-pass rate and Brier score at minimum.
-9. Thresholds remain unset until calibration evidence exists.
-10. Identical archived inputs can be independently verified offline except for reproducing the external Jev inference itself.
-11. Model/rubric/code/evidence versions are recorded.
-12. A VASCO evidence packet can be evaluated as the first pilot.
-13. Scientific gate status remains `PASS/PARTIAL/FAIL/BLOCKED/N/A`.
-14. No feature emits a global probability that REGULUS, Vallée, Jackson, the ECM hypothesis, or a conscious controller is true.
-15. Documentation explicitly states that the evaluator improves methodological consistency, not evidentiary strength by itself.
+1. `typesafe/jev-1.13` pinned.
+2. OpenRouter Decisions API isolated behind a client module.
+3. Evidence/output schemas committed and validated.
+4. G0–G9, bridge, and observer-channel rubrics stored as versioned data.
+5. Deterministic hard rules implemented and tested.
+6. Jev cannot override hard-rule failures.
+7. Advisory calibration metrics include false-pass rate and Brier score.
+8. No production threshold or authority transition exists in Plan 1.
+9. Archived packet/model/rubric/code provenance is recorded or verified.
+10. VASCO exploratory packet exists without invented confirmation metadata.
+11. Scientific gate statuses remain non-numerical.
+12. No global theory probability is emitted.
+
+Still pending in Plan 2:
+
+- structured adversarial general-purpose LLM review;
+- 150–300 genuinely human-reviewed gold cases;
+- full Jev calibration run over that frozen set;
+- uncertainty/threshold policy selected from measured error costs;
+- hash-bound governed authority approval;
+- first calibrated multi-channel VASCO run.
 
 ---
 
@@ -706,37 +708,28 @@ Do not build in v1:
 - global hypothesis scoring;
 - automated publication claims;
 - a web dashboard;
-- model ensembles beyond one adversarial general-purpose LLM review;
 - automated expert replacement;
 - adaptive rubric rewriting based on desired outcomes.
 
-Those additions would enlarge the attack surface for bias before the core evaluator is calibrated.
+---
+
+## 19. Implementation decisions
+
+- **Language:** TypeScript.
+- **Runtime:** Node 22.
+- **OpenRouter SDK:** pinned lockfile, with a CI regression that verifies `alpha.decisions.create` exists.
+- **Jev model:** `typesafe/jev-1.13`.
+- **Thresholds:** intentionally unset in Plan 1.
+- **Gold-set authority:** intentionally impossible in Plan 1; governed by Plan 2.
 
 ---
 
-## 19. Open implementation decisions
+## 20. Remaining implementation sequence
 
-These are implementation choices, not conceptual blockers:
-
-- TypeScript vs Python. **Recommendation: TypeScript**, because OpenRouter's current Decisions API examples use its official SDK and the repo's future tool can remain a small typed CLI.
-- Exact general-purpose adversarial-review model. This should be configurable and recorded, not hard-coded as scientific authority.
-- Gold-set authoring workflow. Initial labels should be human-reviewed; later examples can be proposed automatically but not silently accepted.
-- Calibration threshold values. These must be chosen only after empirical calibration.
-
----
-
-## 20. Recommended implementation sequence
-
-1. Create schemas and frozen rubric v1.
-2. Implement deterministic hard rules first.
-3. Add Jev/OpenRouter client pinned to `typesafe/jev-1.13`.
-4. Implement evaluation artifact writer and verifier.
-5. Build initial synthetic/historical gold cases.
-6. Implement calibration metrics.
-7. Run calibration and define uncertainty/escalation bands.
-8. Add adversarial LLM reviewer.
-9. Implement final adjudication merge logic.
-10. Build VASCO V-A evidence packet and run the first real pilot.
-11. Only after successful pilot consider using the subsystem in other branches.
-
-This ordering ensures that model inference is added inside a pre-existing methodological framework rather than becoming the framework itself.
+1. Human-review protocol and 150–300 case gold set.
+2. Run pinned Jev calibration and quantify uncertainty.
+3. Define escalation thresholds from measured false-pass costs.
+4. Add adversarial LLM reviewer.
+5. Add hash-bound authority approval logic.
+6. Run calibrated VASCO pilot.
+7. Only after that consider using the subsystem in additional branches.
